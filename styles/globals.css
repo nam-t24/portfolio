@@ -28,3 +28,42 @@ a {
     background: black;
   }
 }
+
+.heroGradient {
+  background: rgb(48,40,79);
+  background: -moz-radial-gradient(ellipse farthest-side at bottom center, rgb(43, 36, 70) 0%, rgba(37, 32, 57, 0.818) 7%, rgba(0,212,255,0) 50%);
+  background: -webkit-radial-gradient(ellipse farthest-side at bottom center, rgb(43, 36, 70) 0%, rgba(37, 32, 57, 0.818) 7%, rgba(0,212,255,0) 50%);
+  background: radial-gradient(ellipse farthest-side at bottom center, rgb(43, 36, 70) 0%, rgba(37, 32, 57, 0.818) 7%, rgba(0,212,255,0) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#30284f",endColorstr="#00d4ff",GradientType=1);
+  z-index: 0 !important;
+}
+
+/*Blinking typewriter effect*/
+@-webkit-keyframes typeBlink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+  }
+}
+
+@keyframes typeBlink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+  }
+}
+
+.typeBlink {
+  border-right: 0.08em solid rgb(255, 255, 255);
+}
+
+.typeBlink {
+  -webkit-animation: typeBlink 1s step-end infinite;
+  animation: typeBlink 1s step-end infinite;
+}
