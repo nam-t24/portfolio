@@ -4,7 +4,9 @@ import Link from 'next/link';
 const Navbar = () => {
     return(
         <div className="h-[5rem] flex items-center py-3 lg:px-20 md:px-16 sm:px-8 px-4 text-white justify-between z-50 relative">
-            <Image src={Logo} alt="Logo" width={40} height="auto"></Image>
+            <Link href="/">
+                <Image src={Logo} alt="Logo" width={40} height="auto"></Image>
+            </Link>
             {/* Links */}
             <section className='2xl:text-3xl md:text-2xl text-xl md:font-medium font-semibold flex items-center xl:space-x-12 > * + * md:space-x-8 > * + * space-x-4 > * + *'>
                 <a href='#about'>about</a>

@@ -71,14 +71,14 @@ const Hero = () =>{
             {/* Lg and above */}
             <div className="hidden text-white grow z-50 relative px-24 lg:flex">
                 {/* Profile Image */}
-                <div className="xl:w-72 xl:h-72 w-64 h-64 absolute top-1/2 xl:right-[15%] right-[5%] -translate-y-1/2 rounded-full border-2 border-white overflow-hidden">
+                <div className="2xl:w-96 2xl:h-96 xl:w-72 xl:h-72 w-64 h-64 absolute top-1/2 2xl:right-1/4 xl:right-[15%] right-[5%] -translate-y-1/2 rounded-full border-2 border-white overflow-hidden">
                     <Image src={ProfilePic} fill={true} alt="ProfilePic" priority={true}
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     ></Image>
                 </div>
                 {/* Text */}
                 <section className="flex flex-col justify-center">
-                    <h1 className="text-7xl font-bold">Nam Truong</h1>
+                    <h1 className="2xl:text-9xl text-7xl 2xl:font-semibold font-bold">Nam Truong</h1>
                     <p className='z-10 my-4'>
                         <span
                             data-period="1500"

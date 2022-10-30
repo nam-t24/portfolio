@@ -30,12 +30,10 @@ a {
 }
 
 .heroGradient {
-  background: rgb(48,40,79);
-  background: -moz-radial-gradient(ellipse farthest-side at bottom center, rgb(43, 36, 70) 0%, rgba(37, 32, 57, 0.818) 7%, rgba(0,212,255,0) 50%);
-  background: -webkit-radial-gradient(ellipse farthest-side at bottom center, rgb(43, 36, 70) 0%, rgba(37, 32, 57, 0.818) 7%, rgba(0,212,255,0) 50%);
-  background: radial-gradient(ellipse farthest-side at bottom center, rgb(43, 36, 70) 0%, rgba(37, 32, 57, 0.818) 7%, rgba(0,212,255,0) 50%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#30284f",endColorstr="#00d4ff",GradientType=1);
-  z-index: 0 !important;
+  background: rgb(45,38,68);
+  background: -moz-radial-gradient(ellipse farthest-side at bottom center, rgb(45, 38, 74) 0%, rgba(45, 38, 68, 0.818) 7%, rgba(0,212,255,0) 50%);
+  background: -webkit-radial-gradient(ellipse farthest-side at bottom center, rgb(45, 38, 74) 0%, rgba(45, 38, 68, 0.818) 7%, rgba(0,212,255,0) 50%);
+  background: radial-gradient(ellipse farthest-side at bottom center, rgb(45, 38, 74) 0%, rgba(45, 38, 68, 0.818) 7%, rgba(0,212,255,0) 50%);
 }
 
 /*Blinking typewriter effect*/
@@ -66,4 +64,30 @@ a {
 .typeBlink {
   -webkit-animation: typeBlink 1s step-end infinite;
   animation: typeBlink 1s step-end infinite;
+}
+
+/* Raise effect */
+@keyframes raise {
+  0% {
+    transform: translatey(0px);
+  }
+  30% {
+    transform: translatey(-4px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.socialIcon {
+  display: inline-block;
+  transition: all .2s ease-in-out; 
+}
+
+.socialIcon:hover {
+  transform: scale(1.2);
+}
+
+.aboutBox {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }

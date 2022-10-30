@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Hero from '../components/hero'
 import Script from 'next/script'
+import About from '../components/about'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Script src="https://kit.fontawesome.com/31648746d6.js" crossorigin="anonymous"></Script>
 
       <Hero/>
+      <About/>
 
 
     </div>
