@@ -41,8 +41,8 @@ const About = () =>{
     }
     return(
         <div className="bg-[#FCFBFF] py-12 text-black">
-            <h1 id="about" className="text-8xl font-semibold text-center md:my-12 my-8">Howdy</h1>
-            <div className="2xl:w-1/2 lg:w-4/5 w-11/12 min-h-[40rem] bg-[#FBF9FF] mx-auto aboutBox rounded-xl sm:p-8 p-6 flex flex-col">
+            <h1 id="about" className="text-7xl font-semibold text-center md:my-12 my-8">Howdy</h1>
+            <div className="2xl:w-1/2 lg:w-3/5 w-11/12 min-h-[35rem] bg-[#FBF9FF] mx-auto aboutBox rounded-xl sm:p-8 p-6 flex flex-col">
                 {/* Menu Items */}
                 <div className="flex md:flex-row flex-col 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto justify-between items-center xl:text-3xl sm:text-2xl text-xl select-none">
                     <div id="0" className="font-semibold text-[#7855FF] cursor-pointer" onClick={()=>{changeOption("0")}}>About Me</div>
@@ -51,7 +51,7 @@ const About = () =>{
                 </div>
 
                 {/* About box */}
-                <div id="content0"className="md:py-16 py-8 lg:px-16 md:px-8 lg:text-2xl text-xl text-gray-700 font-light">
+                <div id="content0"className="md:py-12 py-8 lg:px-16 md:px-8 2xl:text-xl lg:text-lg text-base text-gray-700 font-light">
                     My name is Nam Truong and I am a second year student from the University of Texas
                     at Dallas studying computer science. I created this site to not only
                     highlight my work and accomplishments but to exhibit my
@@ -79,29 +79,29 @@ const About = () =>{
                     hiking, and creating latte art :)
                 </div>
                 {/* Technologies box */}
-                <div id="content1" className="hidden md:py-16 py-8 lg:px-16 md:px-8 w-full flex flex-row flex-wrap justify-around">
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={Python} alt="Python" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={Java} alt="Java" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={JS} alt="Javascript" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={TS} alt="Typescript" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={CPP} alt="c++" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={Ruby} alt="Ruby" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={HTML} alt="HTML" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={CSS} alt="CSS" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={react} alt="react" fill={true}/></div>
-                    <div className="relative lg:w-20 md:w-16 w-12 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={NextJS} alt="NextJS" fill={true}/></div>
-                    <div className="relative lg:w-20 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={Rails} alt="RubyOnRails" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={Firebase} alt="Firebase" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={SQL} alt="SQL" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={Terraform} alt="Terraform" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={AWS} alt="AWS" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={Git} alt="Git" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={VSCode} alt="VSCode" fill={true}/></div>
-                    <div className="relative lg:w-16 md:w-12 w-10 lg:h-16 md:h-12 h-10 lg:mx-8 md:mx-6 mx-4 md:my-6 my-4"><Image src={Terminal} alt="Terminal" fill={true}/></div>
+                <div id="content1" className="hidden md:py-12 py-8 lg:px-16 md:px-8 w-full flex flex-row flex-wrap justify-around">
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Python} alt="Python" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Java} alt="Java" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={JS} alt="Javascript" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={TS} alt="Typescript" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={CPP} alt="c++" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Ruby} alt="Ruby" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={HTML} alt="HTML" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={CSS} alt="CSS" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={react} alt="react" fill={true}/></div>
+                    <div className="relative lg:w-20 sm:w-16 w-12 lg:h-16 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={NextJS} alt="NextJS" fill={true}/></div>
+                    <div className="relative lg:w-20 sm:w-16 w-12 lg:h-16 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Rails} alt="RubyOnRails" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Firebase} alt="Firebase" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={SQL} alt="SQL" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Terraform} alt="Terraform" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={AWS} alt="AWS" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Git} alt="Git" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={VSCode} alt="VSCode" fill={true}/></div>
+                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Terminal} alt="Terminal" fill={true}/></div>
                 </div>
                 {/* Hiking Trails Box */}
-                <div id="content2" className="hidden md:py-16 py-8 lg:px-16 md:px-8 flex flex-col grow justify-between">
-                    <div className="lg:text-2xl md:text-xl text-lg text-gray-700 font-light">
+                <div id="content2" className="hidden md:py-12 py-8 lg:px-16 md:px-8 flex flex-col grow justify-between">
+                    <div className="2xl:text-xl lg:text-lg text-base text-gray-700 font-light">
                         <ul className='list-disc list-inside'>
                             <li className=''>The Narrows - Zion Nat. Park, Utah</li>
                             <li className=''>Angel&#39;s Landing - Zion Nat. Park, Utah</li>

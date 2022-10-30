@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import Hero from '../components/hero'
 import Script from 'next/script'
+import Hero from '../components/hero'
 import About from '../components/about'
+import Experience from '../components/experience'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
       <Hero/>
       <About/>
+      <Experience/>
 
 
     </div>
