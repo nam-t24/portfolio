@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Image from "next/image";
-import RockIllustration from '../public/assets/RockIllustration.png'
 //icons
 import CPP from '../public/assets/icons/c++.svg';
 import Java from '../public/assets/icons/java.png';
@@ -114,7 +113,7 @@ const About = () =>{
                         </ul>
                     </div>
                     <div className="flex justify-center">
-                        <Image src={RockIllustration} alt="rock" width={150} height={150}/>
+                        <Image src="/assets/RockIllustration.png" alt="rock" width={150} height={150}/>
                     </div>
                 </div>
 
