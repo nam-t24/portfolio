@@ -5,7 +5,7 @@ const Navbar = () => {
     return(
         <div className="h-[5rem] flex items-center py-3 lg:px-20 md:px-16 sm:px-8 px-4 text-white justify-between z-50 relative">
             <Link href="/">
-                <Image src={Logo} alt="Logo" width={40} height="auto"></Image>
+                <Image src={Logo} alt="Logo" width={40} height="auto" priority={true}></Image>
             </Link>
             {/* Links */}
             <section className='2xl:text-3xl md:text-2xl sm:text-xl text-base md:font-medium font-semibold flex items-center xl:space-x-12 > * + * md:space-x-8 > * + * space-x-4 > * + *'>

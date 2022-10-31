@@ -17,7 +17,7 @@ const Resume = () => {
                 </div>
                 <div className = "w-full min-h-screen flex justify-center">
                     <a href="/assets/NamTruong_Resume.pdf" target="_blank" rel="noopener noreferrer" className="md:w-1/2 sm:w-3/4 w-full md:my-14 my-10 resumeGlow">
-                        <Image src={ResumeJPG} alt="Resume"/>
+                        <Image src={ResumeJPG} alt="Resume" priority={true}/>
                     </a>
                 </div>
             </div>
