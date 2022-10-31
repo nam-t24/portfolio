@@ -13,7 +13,7 @@ const Navbar = () => {
                 <a href='#projects'>projects</a>
                 <Link href="/resume">
                     <div className='py-1 px-3 rounded-lg bg-[#8054fc] hover:bg-[#6944D0]'>
-                        Resume
+                        resume
                     </div>
                 </Link>
             </section>
