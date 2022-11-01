@@ -51,7 +51,7 @@ const About = () =>{
 
                 {/* About box */}
                 <div id="content0"className="md:py-12 py-8 lg:px-16 md:px-8 2xl:text-xl lg:text-lg text-base text-gray-700 font-light">
-                    My name is Nam Truong and I am a second year student from the University of Texas
+                    My name is Nam Truong and I am a third year student from the University of Texas
                     at Dallas studying computer science. I created this site to not only
                     highlight my work and accomplishments but to exhibit my
                     growth within computer science.
