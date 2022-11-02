@@ -83,7 +83,7 @@ const Hero = () =>{
                         <span
                             data-period="1500"
                             className="typewrite typeBlink text-3xl 2xl:text-4xl"
-                            data-type='["Student at the University of Texas at Dallas", "B.S. in Computer Science", "Incoming SWE Intern @ J.P. Morgan","Ardent Explorer and Hiker","Casual Volleyball Player", "Açaí Enthusiast", "Thanks for reading!"]'
+                            data-type='["Student at the University of Texas at Dallas", "B.S. in Computer Science", "Ex-SWE Intern @ State Farm","Ardent Explorer and Hiker","Casual Volleyball Player", "Açaí Enthusiast", "Thanks for reading!"]'
                         ></span>
                     </p>
                     <div id="socials" className = "socials text-4xl text-white">
@@ -139,7 +139,7 @@ const Hero = () =>{
                     <span
                         data-period="1500"
                         className="typewrite typeBlink sm:text-2xl text-lg"
-                        data-type='["Student at the University of Texas at Dallas", "B.S. in Computer Science", "Incoming SWE Intern @ J.P. Morgan","Ardent Explorer and Hiker","Casual Volleyball Player", "Açaí Enthusiast", "Thanks for reading!"]'
+                        data-type='["Student at the University of Texas at Dallas", "B.S. in Computer Science", "Ex-SWE Intern @ State Farm","Ardent Explorer and Hiker","Casual Volleyball Player", "Açaí Enthusiast", "Thanks for reading!"]'
                     ></span>
                 </p>
                  <div id="socials" className = "socials text-3xl text-white">
