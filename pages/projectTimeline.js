@@ -6,15 +6,15 @@ import ExtraProjectCard from "../components/extraProjectCard";
 const ProjectTimeline = () => {
     return(
         <>
-        <div className="min-h-screen bg-[#111013] px-4 pb-16">
+        <div className="min-h-screen bg-[#242424] px-4 relative overflow-hidden">
             {/* Header */}
-            <div className="h-[5rem] flex items-center py-3 lg:px-20 md:px-16 sm:px-8 px-4">
+            <div className="h-[5rem] flex items-center py-3 lg:px-20 md:px-16 sm:px-8 px-4 relative z-10">
                 <Link href="/">
                     <Image src={Logo} alt="Logo" width={40} height="auto"></Image>
                 </Link>
             </div>
             {/* Projects */}
-            <div className=" md:w-11/12 w-full mx-auto my-8 text-white">
+            <div className=" md:w-11/12 w-full mx-auto my-8 text-white relative z-10">
                 <h1 className="text-2xl text-gray-300 border-b-2 w-[15rem] border-gray-300 mb-4">2022</h1>
                 <section className="flex flex-wrap">
                     <ExtraProjectCard
@@ -107,10 +107,17 @@ const ProjectTimeline = () => {
                 </section>
             </div>
 
-        </div>
-        {/* Footer */}
-        <div className="bg-[#111013] text-white fixed bottom-0 left-1/2 w-full -translate-x-1/2">
-            <div className=" border-t-[1px] border-gray-200 mx-auto text-center p-2 lg:w-1/2 w-3/4">© 2022 Nam Truong</div>
+            {/* Shapes */}
+
+            <div className="md:w-[40rem] md:h-[40rem] w-[25rem] h-[25rem] absolute top-36 -left-24 -rotate-[15deg] bg-[#7F62CF] rounded-xl z-0 opacity-[0.7]"></div>
+            <div className="md:w-[25rem] md:h-[25rem] w-[15rem] h-[15rem] absolute top-[40%] right-24 rotate-[12deg] bg-[#7F62CF] rounded-xl z-0 opacity-[0.9]"></div>
+            <div className="md:w-[20rem] md:h-[20rem] w-[12rem] h-[12rem] absolute top-[70%] left-[20%] rotate-[35deg] bg-[#7F62CF] rounded-xl z-0 opacity-[0.5]"></div>
+            <div className="md:w-[35rem] md:h-[35rem] w-[25rem] h-[25rem] absolute bottom-0 right-0 bg-[#7F62CF] rounded-xl z-0 opacity-[1] -rotate-[20deg] translate-y-1/3 translate-x-1/3"></div>
+
+            {/* Footer */}
+            <div className=" text-white w-full relative z-10">
+                <div className=" border-t-[1px] border-gray-200 mx-auto text-center p-2 lg:w-1/2 w-3/4">© 2022 Nam Truong</div>
+            </div>
         </div>
         </>
     );

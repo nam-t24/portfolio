@@ -1,18 +1,21 @@
 const ExtraProjectCard = (props) => {
     return(
-        <div className="border-t-4 border-l-[1px] border-b-[1px] border-r-[1px] border-gray-300 border-t-[#7F62CF] lg:w-[24rem] w-[20rem] lg:h-[20rem] h-[18rem] lg:my-6 md:my-4 my-2 lg:mr-8 mr-2">
-            <div className="h-1/4 bg-[#1B1525] flex items-center text-2xl font-bold px-4 text-[#7F62CF]">
-                {props.title}
-            </div>
-            <div className="h-1/2 p-4 font-light text-gray-200 lg:text-base text-sm">
-                {props.description}
+        <div className="extraProjectBackground rounded-lg lg:w-[24rem] w-[20rem] lg:h-[18rem] h-[16rem] lg:my-4 md:my-3 my-2 lg:mr-8 mr-2 lg:p-6 p-4 flex flex-col justify-between">
+            <div>
+                <div className="flex items-center text-2xl font-bold text-[#7F62CF]">
+                    {props.title}
+                </div>
+                <div className="text-gray-700 2xl:text-lg lg:text-base text-sm mt-4">
+                    {props.description}
 
+                </div>
             </div>
-            <a href={props.link} target="_blank" rel="noreferrer" className="h-1/4 text-gray-200 border-t-[1px] border-gray-300 flex justify-between items-center px-4 hover:bg-[#7F62CF]">
-                <div>View project code</div>
-                <i className="fa-solid fa-arrow-right"></i>
+            <div className="">
+                <a href={props.link} target="_blank" rel="noreferrer" className="text-2xl text-black">
+                    <i className="fab fa-github projectIcon"></i>
 
-            </a>
+                </a>
+            </div>
         </div>
     );
 

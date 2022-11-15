@@ -80,6 +80,11 @@ a {
   }
 }
 
+.projectIcon:hover{
+  animation: raise 1s ease-out;
+  transition: 0.3s ease-out;
+}
+
 .socialIcon {
   display: inline-block;
   transition: all .2s ease-in-out; 
@@ -123,4 +128,9 @@ a {
   -moz-box-shadow: 0 0 20px rgb(210, 212, 214);
   -webkit-box-shadow: 0 0 20px rgb(210, 212, 214);
   box-shadow: 0px 0px 20px rgb(210, 212, 214);
+}
+
+.extraProjectBackground {
+  background-color: rgba(252, 252, 255, 0.885);
+  backdrop-filter: blur(4px);
 }
