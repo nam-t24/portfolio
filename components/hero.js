@@ -78,12 +78,12 @@ const Hero = () =>{
                 </div>
                 {/* Text */}
                 <section className="flex flex-col justify-center">
-                    <h1 className="2xl:text-9xl text-7xl 2xl:font-semibold font-bold">Nam Truong</h1>
+                    <h1 className="2xl:text-9xl text-7xl 2xl:font-semibold font-semibold">Nam Truong</h1>
                     <p className='z-10 my-4'>
                         <span
                             data-period="1500"
                             className="typewrite typeBlink text-3xl 2xl:text-4xl"
-                            data-type='["Student at the University of Texas at Dallas", "B.S. in Computer Science", "Ex-SWE Intern @ State Farm","Ardent Explorer and Hiker","Casual Volleyball Player", "Açaí Enthusiast", "Thanks for reading!"]'
+                            data-type='["Student at the University of Texas at Dallas", "B.S. in Computer Science", "Incoming SWE Intern @ J.P. Morgan","Ardent Explorer and Hiker","Casual Volleyball Player", "Açaí Enthusiast", "Thanks for reading!"]'
                         ></span>
                     </p>
                     <div id="socials" className = "socials text-4xl text-white">
@@ -139,7 +139,7 @@ const Hero = () =>{
                     <span
                         data-period="1500"
                         className="typewrite typeBlink sm:text-2xl text-lg"
-                        data-type='["Student at the University of Texas at Dallas", "B.S. in Computer Science", "Ex-SWE Intern @ State Farm","Ardent Explorer and Hiker","Casual Volleyball Player", "Açaí Enthusiast", "Thanks for reading!"]'
+                        data-type='["Student at the University of Texas at Dallas", "B.S. in Computer Science", "Incoming SWE Intern @ J.P. Morgan","Ardent Explorer and Hiker","Casual Volleyball Player", "Açaí Enthusiast", "Thanks for reading!"]'
                     ></span>
                 </p>
                  <div id="socials" className = "socials text-3xl text-white">
