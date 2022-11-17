@@ -78,8 +78,8 @@ const Projects = () => {
             </div>
 
             {/* Extra Projects Section */}
-            <div className="bg-[#111013] p-16">
-                <div className="text-white text-center lg:text-6xl md:text-5xl text-4xl font-bold">
+            <div className="bottomGradient">
+                <div className="text-white text-center lg:text-5xl md:text-4xl text-3xl font-semibold pt-8">
                     <p className='inline'>
                         Check out the rest of my&nbsp;
                     </p>
@@ -87,10 +87,13 @@ const Projects = () => {
                         projects
                     </p>
                 </div>
-                <div className="text-white text-center md:text-2xl text-xl font-medium mt-8">
+                {/* TODO: Make gradient */}
+                <div className="text-white text-center md:text-2xl text-xl font-medium mt-4 pb-8">
                     View the timeline&nbsp;
-                    <Link href="/projectTimeline"><div className="inline hover:underline text-[#7855FF]">here</div></Link>
+                    <Link href="/projectTimeline"><div className="inline hover:underline hover:not-italic italic">here</div></Link>
                 </div>
+                <div className="text-white text-base lg:w-1/2 w-3/4 border-t-[1px] border-gray-200 mx-auto text-center p-2">© 2022 Nam Truong</div>
+
             </div>
         </>
     );

@@ -106,12 +106,12 @@ a {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.projectsSub {
+/* .projectsSub {
   background: #FFE259;
   background: linear-gradient(to right, #7855FF 17%, #5595FF 89%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .project {
   transition: transform .2s;
@@ -135,6 +135,17 @@ a {
 }
 
 .extraProjectBackground {
-  background-color: rgba(252, 252, 255, 0.885);
-  backdrop-filter: blur(4px);
+  background-color: rgba(252, 252, 255, 0.8);
+  backdrop-filter: blur(7px);
+}
+
+.bottomGradient {
+  background: rgb(85,58,190);
+background: -moz-linear-gradient(90deg, rgba(85,58,190,1) 6%, rgba(59,60,182,1) 50%, rgba(60,106,184,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(85,58,190,1) 6%, rgba(59,60,182,1) 50%, rgba(60,106,184,1) 100%);
+background: linear-gradient(90deg, rgba(85,58,190,1) 6%, rgba(59,60,182,1) 50%, rgba(60,106,184,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#553abe",endColorstr="#3c6ab8",GradientType=1);
+box-shadow: inset 0 7px 30px 2px rgba(0,0,0,0.4);
+
+
 }
