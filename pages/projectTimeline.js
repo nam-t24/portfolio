@@ -111,8 +111,8 @@ const ProjectTimeline = () => {
 
             <div className="md:w-[40rem] md:h-[40rem] w-[25rem] h-[25rem] absolute top-36 -left-24 -rotate-[15deg] bg-[#1DA9FF] rounded-xl z-0 opacity-[0.7]"></div>
             <div className="md:w-[25rem] md:h-[25rem] w-[15rem] h-[15rem] absolute top-[40%] right-24 rotate-[12deg] bg-[#7F62CF] rounded-xl z-0 opacity-[0.9]"></div>
-            <div className="md:w-[20rem] md:h-[20rem] w-[12rem] h-[12rem] absolute top-[70%] left-[20%] rotate-[35deg] bg-[#1DA9FF] rounded-xl z-0 opacity-[0.6]"></div>
-            <div className="md:w-[35rem] md:h-[35rem] w-[25rem] h-[25rem] absolute bottom-0 right-0 bg-[#7F62CF] rounded-xl z-0 opacity-[1] -rotate-[20deg] translate-y-1/3 translate-x-1/3"></div>
+            <div className="2xl:hidden md:w-[20rem] md:h-[20rem] w-[12rem] h-[12rem] absolute top-[70%] left-[20%] rotate-[35deg] bg-[#1DA9FF] rounded-xl z-0 opacity-[0.6]"></div>
+            <div className="2xl:hidden md:w-[35rem] md:h-[35rem] w-[25rem] h-[25rem] absolute bottom-0 right-0 bg-[#7F62CF] rounded-xl z-0 opacity-[1] -rotate-[20deg] translate-y-1/3 translate-x-1/3"></div>
 
             {/* Footer */}
             <div className=" text-white w-full relative z-10">
