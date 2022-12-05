@@ -8,7 +8,7 @@ const Navbar = () => {
                 <Image src={Logo} alt="Logo" width={40} height="auto" priority={true}></Image>
             </Link>
             {/* Links */}
-            <section className='2xl:text-3xl md:text-2xl sm:text-xl text-base md:font-medium font-semibold flex items-center xl:space-x-12 > * + * md:space-x-8 > * + * space-x-4 > * + *'>
+            <section className='2xl:text-3xl md:text-2xl sm:text-xl text-base md:font-medium font-light flex items-center xl:space-x-12 > * + * md:space-x-8 > * + * space-x-4 > * + *'>
                 <a href='#about'>about</a>
                 <a href='#projects'>projects</a>
                 <Link href="/resume">
