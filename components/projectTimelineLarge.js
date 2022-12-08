@@ -2,20 +2,82 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from '../public/assets/N_white.png'
 import ExtraProjectCard from "../components/extraProjectCard";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const ProjectTimelineLarge = () => {
     const [year, setYear] = useState("2022");
 
-    const changeYear = (newYear) => {
-        document.getElementById(year).style.borderBottomWidth = "0px";
-        document.getElementById(`${year}content`).style.display = "none"
-        
+    useEffect(()=>{
+        let blueSquare = document.getElementById("blueSquare");
+        if(blueSquare === undefined){
+            return;
+        }
+        let blueDegree = 0
+        const rotateBlue = setInterval(() => {
+            blueSquare.style.transform = `rotate(${blueDegree}deg)`;
 
-        document.getElementById(newYear).style.borderBottomWidth = "2px";
-        document.getElementById(`${newYear}content`).style.display = "flex"
+            if(blueDegree < -15){
+                blueSquare.style.transform = "rotate(-15deg)";
+                clearInterval(rotateBlue);
+            }
+
+            blueDegree -= 0.25;
+        }, 15)
+
+        let purpleSquare = document.getElementById("purpleSquare");
+        if(purpleSquare === undefined){
+            return;
+        }
+        let purpleDegree = 0
+        const rotatePurple = setInterval(() => {
+            purpleSquare.style.transform = `rotate(${purpleDegree}deg)`;
+
+            if(purpleDegree > 15){
+                purpleSquare.style.transform = "rotate(15deg)";
+                clearInterval(rotatePurple);
+            }
+
+            purpleDegree += 0.25;
+        }, 15)
+
+    }, [])
+
+    const changeYear = (newYear) => {
+        let currMenu = document.getElementById(year);
+        let currContent = document.getElementById(`${year}content`);
+        let newMenu = document.getElementById(newYear);
+        let newContent = document.getElementById(`${newYear}content`);
+
+        if(currMenu === undefined || currContent === undefined || newMenu === undefined || newContent === undefined){
+            return;
+        }
+
+        // Menu
+        currMenu.style.borderBottomWidth = "0px";
+        // Content
+        currContent.style.display = "none"
+        currContent.style.opacity = 0;
+        
+        
+        // Menu
+        newMenu.style.borderBottomWidth = "2px";
+        // Content
+        newContent.style.display = "flex"
         setYear(newYear);
+        
+        let currOpacity=0
+        const fadeIn = setInterval(() => {
+            newContent.style.opacity = currOpacity;
+            
+            if (currOpacity > 1){
+                newContent.style.opacity = 1;
+                clearInterval(fadeIn);
+            }
+            currOpacity+=0.05
+            
+        }, 35)
     }
+
 
     return(
         <>
@@ -65,7 +127,7 @@ const ProjectTimelineLarge = () => {
                 </div>
 
                 {/* 2021 Projects */}
-                <div id="2021content" className="hidden flex-wrap text-white">
+                <div id="2021content" className="hidden flex-wrap text-white opacity-0">
                     <ExtraProjectCard
                         title="Mind Reader Game - Comp Arch"
                         description = "Simple number guessing game built using MIPS for CS2340 Computer Architecture"
@@ -104,7 +166,7 @@ const ProjectTimelineLarge = () => {
                 </div>
 
                 {/* 2020 Projects */}
-                <div id="2020content" className="hidden flex-wrap text-white">
+                <div id="2020content" className="hidden flex-wrap text-white opacity-0">
                     <ExtraProjectCard
                         title="Typer"
                         description = "Site to test typing speed using quotes API generator to generate text. Features light and pastel theme options. Used plain html, css, js."
@@ -129,10 +191,10 @@ const ProjectTimelineLarge = () => {
             </div>
 
             {/* Abstract Shapes */}
-            <div className="md:w-[32rem] md:h-[32rem] w-[25rem] h-[25rem] absolute top-36 -left-24 -rotate-[15deg] bg-[#1DA9FF] rounded-xl z-0 opacity-[0.7]"></div>
+            <div id="blueSquare" className="md:w-[32rem] md:h-[32rem] w-[25rem] h-[25rem] absolute top-36 -left-24 bg-[#1DA9FF] rounded-xl z-0 opacity-[0.7]"></div>
             {/* <div className="md:w-[25rem] md:h-[25rem] w-[15rem] h-[15rem] absolute top-[40%] right-24 rotate-[12deg] bg-[#7F62CF] rounded-xl z-0 opacity-[0.9]"></div> */}
             {/* <div className="2xl:hidden md:w-[20rem] md:h-[20rem] w-[12rem] h-[12rem] absolute top-[70%] left-[20%] rotate-[35deg] bg-[#1DA9FF] rounded-xl z-0 opacity-[0.6]"></div> */}
-            <div className="2xl:hidden md:w-[15rem] md:h-[15rem] w-[25rem] h-[25rem] absolute bottom-0 right-0 bg-[#7F62CF] rounded-xl z-0 opacity-[1] -rotate-[20deg] -translate-y-1/3 -translate-x-1/3"></div>
+            <div id="purpleSquare" className="2xl:hidden md:w-[15rem] md:h-[15rem] w-[25rem] h-[25rem] absolute bottom-20 right-20 bg-[#7F62CF] rounded-xl z-0 opacity-[1] rotate-[15deg]"></div>
             
             {/* Footer */}
             <div className=" text-white w-full relative z-10 mt-16">
