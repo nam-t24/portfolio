@@ -2,6 +2,16 @@ const Experience = () => {
     return (
         <div className="bg-[#E8E3FD] text-black py-32 2xl:px-56 xl:px-44 lg:px-32 md:px-16 px-6 overflow-hidden relative">
             <h1 className="text-7xl font-semibold md:mb-12 mb-8 relative z-10 2xl:w-1/2 2xl:mx-auto">Experience</h1>
+            {/* JP Morgan */}
+            <section className="2xl:w-1/2 lg:w-11/12 w-full text-gray-700 2xl:text-2xl md:text-xl text-lg relative z-10 2xl:mx-auto md:mb-12 mb-10">
+                <div className="flex justify-between items-end">
+                    <h1 className="text-2xl font-bold text-black">J.P. Morgan</h1>
+                    <p className="">May 2023 - Aug 2023</p>
+                </div>
+                <div className="my-2 sm:text-xl text-lg 2xl:text-2xl">
+                    Incoming Software Engineering Intern
+                </div>
+            </section>
             {/* State Farm */}
             <section className="2xl:w-1/2 lg:w-11/12 w-full text-gray-700 2xl:text-2xl md:text-xl text-lg relative z-10 2xl:mx-auto">
                 <div className="flex justify-between items-end">
