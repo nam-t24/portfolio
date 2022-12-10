@@ -50,7 +50,7 @@ const About = () =>{
                 </div>
 
                 {/* About box */}
-                <div id="content0"className="md:py-12 py-8 lg:px-16 md:px-8 2xl:text-xl lg:text-lg text-base text-gray-700 font-light">
+                <div id="content0"className="md:py-12 py-8 lg:px-16 md:px-8 2xl:text-2xl lg:text-lg text-base text-gray-700 font-light">
                     My name is Nam Truong and I am a third year student from the University of Texas
                     at Dallas studying computer science. I created this site to not only
                     highlight my work and accomplishments but to exhibit my
@@ -100,7 +100,7 @@ const About = () =>{
                 </div>
                 {/* Hiking Trails Box */}
                 <div id="content2" className="hidden md:py-12 py-8 lg:px-16 md:px-8 flex flex-col grow justify-between">
-                    <div className="2xl:text-xl lg:text-lg text-base text-gray-700 font-light">
+                    <div className="2xl:text-2xl lg:text-lg text-base text-gray-700 font-light">
                         <ul className='list-disc list-inside'>
                             <li className=''>The Narrows - Zion Nat. Park, Utah</li>
                             <li className=''>Angel&#39;s Landing - Zion Nat. Park, Utah</li>

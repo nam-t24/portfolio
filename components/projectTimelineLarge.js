@@ -194,7 +194,7 @@ const ProjectTimelineLarge = () => {
             <div id="blueSquare" className="md:w-[32rem] md:h-[32rem] w-[25rem] h-[25rem] absolute top-36 -left-24 bg-[#1DA9FF] rounded-xl z-0 opacity-[0.7]"></div>
             {/* <div className="md:w-[25rem] md:h-[25rem] w-[15rem] h-[15rem] absolute top-[40%] right-24 rotate-[12deg] bg-[#7F62CF] rounded-xl z-0 opacity-[0.9]"></div> */}
             {/* <div className="2xl:hidden md:w-[20rem] md:h-[20rem] w-[12rem] h-[12rem] absolute top-[70%] left-[20%] rotate-[35deg] bg-[#1DA9FF] rounded-xl z-0 opacity-[0.6]"></div> */}
-            <div id="purpleSquare" className="2xl:hidden md:w-[15rem] md:h-[15rem] w-[25rem] h-[25rem] absolute bottom-20 right-20 bg-[#7F62CF] rounded-xl z-0 opacity-[1] rotate-[15deg]"></div>
+            <div id="purpleSquare" className="2xl:w-[20rem] 2xl:h-[20rem] w-[15rem] h-[15rem] absolute bottom-20 2xl:right-36 right-20 bg-[#7F62CF] rounded-xl z-0 opacity-[1] rotate-[15deg]"></div>
             
             {/* Footer */}
             <div className=" text-white w-full relative z-10 mt-16">

@@ -19,7 +19,7 @@ const Projects = () => {
                     {/* Title */}
                     <div className="lg:w-1/3 lg:my-0 my-4 ">
                         <h1 className=" lg:sticky lg:top-8 text-7xl font-semibold sm:text-left text-center 2xl:ml-28 lg:ml-6 text-black">Projects</h1>
-                        <div className="lg:sticky lg:top-28 sm:text-left text-center 2xl:ml-28 lg:ml-6 my-2 text-xl text-gray-700 font-medium">A small collection of featured <p className="text-[#7855FF] inline">side-projects</p></div>
+                        <div className="lg:sticky lg:top-28 sm:text-left text-center 2xl:ml-28 lg:ml-6 my-2 2xl:text-2xl text-xl text-gray-700 font-medium">A small collection of featured <p className="text-[#7855FF] inline">side-projects</p></div>
                     </div>
                     {/* Projects */}
                     <div className="lg:w-2/3 flex flex-wrap justify-around">
