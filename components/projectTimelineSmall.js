@@ -16,7 +16,7 @@ const ProjectTimelineSmall = () => {
             </div>
             {/* Projects */}
             <div className=" md:w-11/12 w-full mx-auto my-8 text-white relative z-10">
-                <h1 className="text-2xl text-gray-300 border-b-2 w-[15rem] border-gray-300 mb-4">2022</h1>
+                <h1 className="text-3xl text-gray-300 border-b-2 w-[15rem] border-gray-300 mb-4">2022</h1>
                 <section className="flex flex-wrap">
                     <ExtraProjectCard
                         title="HackPortal"
@@ -44,7 +44,7 @@ const ProjectTimelineSmall = () => {
                         link = "https://github.com/acmutd/hackutd-viii-site"
                     />
                 </section>
-                <h1 className="text-2xl text-gray-300 border-b-2 w-[15rem] border-gray-300 mb-4">2021</h1>
+                <h1 className="text-3xl text-gray-300 border-b-2 w-[15rem] border-gray-300 my-4">2021</h1>
                 <section className="flex flex-wrap">
                     <ExtraProjectCard
                         title="Mind Reader Game - Comp Arch"
@@ -82,7 +82,7 @@ const ProjectTimelineSmall = () => {
                         link = "https://github.com/acmutd/hackutd-vii-site"
                     />
                 </section>
-                <h1 className="text-2xl text-gray-300 border-b-2 w-[15rem] border-gray-300 mb-4">2020</h1>
+                <h1 className="text-3xl text-gray-300 border-b-2 w-[15rem] border-gray-300 my-4">2020</h1>
                 <section className="flex flex-wrap">
                     <ExtraProjectCard
                         title="Typer"
@@ -111,7 +111,7 @@ const ProjectTimelineSmall = () => {
             {/* Shapes */}
 
             <div className="md:w-[40rem] md:h-[40rem] w-[25rem] h-[25rem] absolute top-36 -left-24 -rotate-[15deg] bg-[#1DA9FF] rounded-xl z-0 opacity-[0.7]"></div>
-            <div className="md:w-[25rem] md:h-[25rem] w-[15rem] h-[15rem] absolute top-[40%] right-24 rotate-[12deg] bg-[#7F62CF] rounded-xl z-0 opacity-[0.9]"></div>
+            <div className="md:w-[25rem] md:h-[25rem] w-[15rem] h-[15rem] absolute top-[40%] right-6 rotate-[12deg] bg-[#7F62CF] rounded-xl z-0 opacity-[0.9]"></div>
             <div className="2xl:hidden md:w-[20rem] md:h-[20rem] w-[12rem] h-[12rem] absolute top-[70%] left-[20%] rotate-[35deg] bg-[#1DA9FF] rounded-xl z-0 opacity-[0.6]"></div>
             <div className="2xl:hidden md:w-[35rem] md:h-[35rem] w-[25rem] h-[25rem] absolute bottom-0 right-0 bg-[#7F62CF] rounded-xl z-0 opacity-[1] -rotate-[20deg] translate-y-1/3 translate-x-1/3"></div>
 

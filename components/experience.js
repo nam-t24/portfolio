@@ -1,7 +1,7 @@
 const Experience = () => {
     return (
-        <div className="bg-[#E8E3FD] text-black py-32 2xl:px-56 xl:px-44 lg:px-32 md:px-16 px-6 overflow-hidden relative">
-            <h1 className="text-7xl font-semibold md:mb-12 mb-8 relative z-10 2xl:w-1/2 2xl:mx-auto">Experience</h1>
+        <div className="bg-[#E8E3FD] text-black md:py-32 py-24 2xl:px-56 xl:px-44 lg:px-32 md:px-16 px-8 overflow-hidden relative">
+            <h1 className="md:text-7xl text-6xl font-semibold md:mb-12 mb-8 relative z-10 2xl:w-1/2 2xl:mx-auto">Experience</h1>
             {/* JP Morgan */}
             <section className="2xl:w-1/2 lg:w-11/12 w-full text-gray-700 2xl:text-2xl md:text-xl text-lg relative z-10 2xl:mx-auto md:mb-12 mb-10">
                 <div className="flex justify-between items-end">
