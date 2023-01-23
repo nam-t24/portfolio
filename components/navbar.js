@@ -9,10 +9,14 @@ const Navbar = () => {
             </Link>
             {/* Links */}
             <section className='2xl:text-3xl md:text-2xl sm:text-xl text-base md:font-medium font-light flex items-center xl:space-x-12 > * + * md:space-x-8 > * + * space-x-4 > * + *'>
-                <a href='#about'>about</a>
-                <a href='#projects'>projects</a>
+                <a href='#about'>
+                    <p className='navbarHover'>about</p>
+                </a>
+                <a href='#projects navbarHover'>
+                    <p className='navbarHover'>projects</p>
+                </a>
                 <Link href="/resume">
-                    <div className='py-1 px-3 rounded-lg bg-[#8054fc] hover:bg-[#6944D0]'>
+                    <div className='py-1 px-3 rounded-lg resumeButton'>
                         resume
                     </div>
                 </Link>

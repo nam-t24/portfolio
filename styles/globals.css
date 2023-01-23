@@ -109,7 +109,9 @@ a {
 }
 
 .aboutBox {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+box-shadow:  26px 26px 52px #d3d3d3,
+             -26px -26px 52px #eaeaea;
 }
 
 .projectCardShadow {
@@ -160,6 +162,69 @@ a {
     -moz-box-shadow: inset 0 20px 20px -20px rgba(187, 187, 187, 0.8); */
     box-shadow: inset 0 20px 20px -20px rgba(255, 255, 255, 0.8);
 
+}
 
+.navbarHover {
+  padding-bottom: 1px;
+  color: white;
+  position: relative;
+}
 
+.navbarHover::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transform: translateY(3px);
+  background: white;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.navbarHover:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.resumeButton {
+ --color: #ac52ec;
+ font-family: inherit;
+ position: relative;
+ overflow: hidden;
+ border: 2px solid var(--color);
+ transition: color .5s;
+ z-index: 1;
+ color: var(--color);
+}
+
+.resumeButton:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ background: var(--color);
+ height: 150px;
+ width: 200px;
+ border-radius: 50%;
+}
+
+.resumeButton:hover {
+ color: #fff;
+}
+
+.resumeButton:before {
+ top: 100%;
+ left: 100%;
+ transition: all .7s;
+}
+
+.resumeButton:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.resumeButton:active:before {
+ background: #3a0ca3;
+ transition: background 0s;
 }

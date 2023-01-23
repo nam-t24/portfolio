@@ -41,7 +41,7 @@ const About = () =>{
     return(
         <div className="bg-[#FCFBFF] py-12 text-black">
             <h1 id="about" className="text-7xl font-semibold text-center md:mb-12 mb-8 md:pt-12 pt-8">Howdy</h1>
-            <div className="2xl:w-1/2 lg:w-3/5 w-11/12 min-h-[35rem] bg-[#FBF9FF] mx-auto aboutBox rounded-xl sm:p-8 p-6 flex flex-col">
+            <div className="2xl:w-1/2 lg:w-3/5 w-11/12 min-h-[35rem] bg-[#FCFBFF] mx-auto aboutBox rounded-xl sm:p-8 p-6 flex flex-col">
                 {/* Menu Items */}
                 <div className="flex md:flex-row flex-col lg:w-4/5 w-11/12 mx-auto justify-between items-center xl:text-3xl sm:text-2xl text-xl select-none">
                     <div id="0" className="font-semibold text-[#7855FF] cursor-pointer" onClick={()=>{changeOption("0")}}>About Me</div>
