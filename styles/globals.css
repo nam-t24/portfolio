@@ -228,3 +228,15 @@ box-shadow:  26px 26px 52px #d3d3d3,
  background: #3a0ca3;
  transition: background 0s;
 }
+
+.extraProjectCard {
+  transition: all 0.5s;
+}
+.extraProjectCard:hover {
+  border-color: rgb(167 139 250);
+  transform: scale(1.04);
+}
+
+.extraProjectCard:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
