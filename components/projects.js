@@ -12,14 +12,16 @@ import Spinboard from '../public/assets/projectImages/Spinboard.png';
 
 const Projects = () => {
     return(
-        <>
+        <div className="bg-[#FCFBFF]">
             {/* Featured Projects Section */}
-            <div className="bg-[#FCFBFF] py-12 lg:px-4 px-12">
+            <div className=" py-12 lg:px-4 px-12">
                 <div id="projects"className="mx-auto lg:w-4/5 flex lg:flex-row flex-col">
                     {/* Title */}
-                    <div className="lg:w-1/3 lg:my-0 my-4 ">
-                        <h1 className=" lg:sticky lg:top-8 md:text-7xl text-6xl font-semibold sm:text-left text-center 2xl:ml-28 lg:ml-6 text-black">Projects</h1>
-                        <div className="lg:sticky lg:top-28 sm:text-left text-center 2xl:ml-28 lg:ml-6 my-2 2xl:text-2xl text-xl text-gray-700 font-medium">A small collection of featured <p className="text-[#7855FF] inline">side-projects</p></div>
+                    <div className="lg:w-1/3 lg:my-0 my-4">
+                        <div className="lg:sticky lg:top-8 lg:pb-48">
+                            <h1 className="  md:text-7xl text-6xl font-semibold sm:text-left text-center 2xl:ml-28 lg:ml-6 text-black">Projects</h1>
+                            <div className=" sm:text-left text-center 2xl:ml-28 lg:ml-6 my-2 2xl:text-2xl text-xl text-gray-700 font-medium">A small collection of featured <p className="text-[#7855FF] inline">side-projects</p></div>
+                        </div>
                     </div>
                     {/* Projects */}
                     <div className="lg:w-2/3 flex flex-wrap justify-around">
@@ -78,8 +80,8 @@ const Projects = () => {
             </div>
 
             {/* Extra Projects Section */}
-            <div className="bg-[#1C1B20]">
-                <div className="text-white text-center lg:text-5xl md:text-4xl text-3xl font-semibold pt-12">
+            <div className="bg-[#1C1B20] lg:w-4/5 w-11/12 mx-auto rounded-xl lg:my-44 md:my-40 my-32 relative">
+                <div className="text-white text-center lg:text-5xl md:text-4xl text-3xl font-semibold lg:pt-16 pt-12 relative z-10">
                     <p className='inline'>
                         Check out the rest of my&nbsp;
                     </p>
@@ -87,15 +89,15 @@ const Projects = () => {
                         projects
                     </p>
                 </div>
-                {/* TODO: Make gradient */}
-                <div className="text-white text-center md:text-2xl text-xl font-medium mt-4 pb-12">
+                <div className="text-white text-center md:text-3xl text-xl font-medium mt-4 lg:pb-16 pb-12 relative z-10">
                     View the timeline&nbsp;
                     <Link href="/projectTimeline"><div className="inline hover:underline text-[#7855FF]">here</div></Link>
                 </div>
-                <div className="text-white text-base lg:w-1/2 w-3/4 border-t-[1px] border-gray-200 mx-auto text-center p-2">© 2022 Nam Truong</div>
-
+                {/* <div className="text-white text-base lg:w-1/2 w-3/4 border-t-[1px] border-gray-200 mx-auto text-center p-2">© 2022 Nam Truong</div> */}
+                <div className="z-0 border-2 border-[#1C1B20] absolute w-full h-full top-0 left-0 rounded-xl rotate-[4deg]"></div>
             </div>
-        </>
+            <div className="text-base lg:w-1/2 w-3/4 border-t-[1px] border-gray-500 mx-auto text-center p-2">© 2022 Nam Truong</div>
+        </div>
     );
 }
 
