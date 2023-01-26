@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Image from "next/image";
-import AboutSection from './AboutSection.js'
 //icons
 import CPP from '../public/assets/icons/c++.svg';
 import Java from '../public/assets/icons/java.png';
