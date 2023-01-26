@@ -12,7 +12,7 @@ const Navbar = () => {
                 <a href='#about'>
                     <p className='navbarHover'>about</p>
                 </a>
-                <a href='#projects navbarHover'>
+                <a href='#projects'>
                     <p className='navbarHover'>projects</p>
                 </a>
                 <Link href="/resume">

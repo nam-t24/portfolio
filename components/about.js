@@ -126,7 +126,7 @@ const About = () =>{
         <div className="bg-[#FCFBFF] py-12 text-black 2xl:px-56 xl:px-44 lg:px-32 md:px-16 px-8">
             <h1 id="about" className="text-7xl font-semibold text-center md:mb-12 mb-8 md:pt-12 pt-8">Howdy</h1>
             <div className=" w-full mx-auto flex relative mt-20">
-            <div className="w-4/5 z-10">
+            <div className="lg:w-4/5 md:w-[70%] sm:w-4/5 w-full z-10 lg:mx-0 mx-auto">
                 <h1 className="text-4xl font-semibold mb-6">About Me</h1>
                 <p className="font-light text-xl">
                     My name is Nam Truong and I am a third year student from the University of Texas
@@ -155,24 +155,29 @@ const About = () =>{
             {/* rectangle */}
             {/* <div className="absolute top-1/2 -translate-y-1/2 right-0 w-[35rem] h-[130%] bg-[#F5F2FD] z-0 rounded-2xl"></div> */}
             </div>
-            <div className="w-full mx-auto flex relative mt-36 flex justify-end relative">
-                <div className="w-2/5">
-                    <h1 className="text-4xl font-semibold mb-6">Interests</h1>
+            <div className="w-full mx-auto relative lg:mt-36 md:mt-20 mt-16 lg:flex justify-end relative">
+                {/* Rectangle */}
+                <div className="lg:absolute overflow-hidden top-1/2 lg:-translate-y-1/2 left-0 xl:w-[30rem] lg:w-[25rem] sm:w-[30rem] w-[25rem] w-[20rem] sm:h-[15rem] h-[12rem] bg-[#F5F2FD] z-0 rounded-2xl mx-auto lg:mb-0 mb-8">
+                    <div className="flex justify-center translate-y-[2.5rem]"><Image src={Coffee} width={500} height={500} alt="coffee"/></div>
+                </div>
+                {/* Content */}
+                <div className="lg:w-2/5 md:w-3/5 sm:w-4/5 w-full lg:mx-0 mx-auto">
+                    <h1 className="md:text-4xl text-3xl font-semibold xl:mb-6 mb-3">Interests</h1>
                     <p className="font-light text-xl">
                         When I&#39;m not coding or learning, I enjoy weight training, playing guitar and volleyball,
                         hiking, and creating latte art :)
                     </p>
                 </div>
-
-                <div className="absolute overflow-hidden top-1/2 -translate-y-1/2 left-0 w-[30rem] h-[15rem] bg-[#F5F2FD] z-0 rounded-2xl">
-                    <div className="flex justify-center translate-y-[2.5rem]"><Image src={Coffee} width={500} height={500}/></div>
-                </div>
-                
-                
             </div>
-            <div className="w-full mx-auto relative mt-36 relative">
-                <h1 className="xl:text-4xl text-3xl font-semibold mb-6">Hiking Bucket List</h1>
-                <ul className="list-disc list-inside font-light xl:text-xl text-lg pr-6">
+            <div className="w-full mx-auto relative lg:mt-36 md:mt-20 mt-16 relative lg:block flex flex-col items-center">
+                {/* Rectangle */}
+                <div className="lg:absolute overflow-hidden top-1/2 lg:-translate-y-1/2 right-0 xl:w-[30rem] lg:w-[25rem] md:w-[30rem] sm:w-[25rem] w-[20rem] xl:h-[20rem] lg:h-[15rem] md:h-[20rem] sm:h-[15rem] h-[12rem] bg-rose-50 z-0 rounded-2xl lg:mb-0 mb-8">
+                    <div className="w-[120%]  translate-y-[30%] -translate-x-[10%]"><Image src={Landscape} width={600} height={100} alt="grand canyon"/></div>
+                </div>
+                {/* Content */}
+                <div className="mx-auto lg:inline inline-block">
+                <h1 className="md:text-4xl text-3xl font-semibold xl:mb-6 mb-3">Hiking Bucket List</h1>
+                <ul className="list-disc list-inside font-light xl:text-xl lg:text-base sm:text-lg text-base lg:w-1/2 lg:pr-2">
                     <li className=''>The Narrows - Zion Nat. Park, Utah</li>
                     <li className=''>Angel&#39;s Landing - Zion Nat. Park, Utah</li>
                     <li className=''>Devil&#39;s Garden - Arches Nat. Park, Utah</li>
@@ -182,13 +187,11 @@ const About = () =>{
                     <li className=''>High Dune - Great Sand Dunes Nat. Park, Colorado</li>
                     <li className=''>Garfield Peak - Crater Lake Nat. Park, Oregon</li>
                 </ul>
-                <div className="absolute overflow-hidden top-1/2 -translate-y-1/2 right-0 w-[30rem] h-[20rem] bg-rose-50 z-0 rounded-2xl">
-                    <div className="w-[120%]  translate-y-[30%] -translate-x-[10%]"><Image src={Landscape} width={600} height={100}/></div>
                 </div>
 
             </div>
 
-            <div className="border-[1px] border-violet-500 mt-36 rounded-2xl sm:p-16 p-12">
+            <div className="border-[1px] border-violet-500 lg:mt-36 md:mt-20 mt-16 rounded-2xl sm:p-16 p-12">
                 <h1 className="md:text-5xl text-4xl font-semibold mb-10 text-center">Technologies</h1>
                 <div className="flex flex-row flex-wrap justify-around">
                     <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Python} alt="Python" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
