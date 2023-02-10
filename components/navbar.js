@@ -16,7 +16,7 @@ const Navbar = () => {
                     <p className='navbarHover'>projects</p>
                 </a>
                 <Link href="/resume">
-                    <div className='py-1 px-3 rounded-lg resumeButton'>
+                    <div className='md:py-1 md:px-3 px-2 rounded-lg resumeButton'>
                         resume
                     </div>
                 </Link>

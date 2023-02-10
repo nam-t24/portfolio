@@ -80,7 +80,7 @@ const Projects = () => {
             </div>
 
             {/* Extra Projects Section */}
-            <div className="bg-[#1C1B20] 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto rounded-xl lg:my-44 md:my-40 my-32 relative">
+            <div className="bg-[#1C1B20] 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto rounded-xl lg:my-44 md:my-40 sm:my-32 my-28 relative">
                 <div className="text-white text-center lg:text-5xl md:text-4xl text-3xl font-semibold lg:pt-16 pt-12 relative z-10">
                     <p className='inline'>
                         Check out the rest of my&nbsp;
@@ -96,6 +96,7 @@ const Projects = () => {
                 {/* <div className="text-white text-base lg:w-1/2 w-3/4 border-t-[1px] border-gray-200 mx-auto text-center p-2">© 2022 Nam Truong</div> */}
                 <div className="z-0 border-2 border-[#1C1B20] absolute w-full h-full top-0 left-0 rounded-xl rotate-[4deg]"></div>
             </div>
+            {/* Footer */}
             <div className="text-base text-black lg:w-1/2 w-3/4 border-t-[1px] border-gray-500 mx-auto text-center p-2">© 2022 Nam Truong</div>
         </div>
     );
