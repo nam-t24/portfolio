@@ -69,13 +69,7 @@ const Hero = () =>{
         <div className="min-h-screen bg-[#111013] flex flex-col relative overflow-hidden">
             <Navbar/>
             {/* Lg and above */}
-            <div className="hidden text-white grow z-50 relative px-24 lg:flex">
-                {/* Profile Image */}
-                <div className="2xl:w-96 2xl:h-96 xl:w-72 xl:h-72 w-64 h-64 absolute top-1/2 2xl:right-1/4 xl:right-[15%] right-[5%] -translate-y-1/2 rounded-full border-2 border-white overflow-hidden">
-                    <Image src={ProfilePic} fill={true} alt="ProfilePic" priority={true}
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    ></Image>
-                </div>
+            <div className="hidden text-white grow z-50 relative px-24 lg:flex justify-between items-center">
                 {/* Text */}
                 <section className="flex flex-col justify-center">
                     <h1 className="2xl:text-9xl text-7xl 2xl:font-semibold font-semibold">Nam Truong</h1>
@@ -122,6 +116,12 @@ const Hero = () =>{
                         </a>
                     </div>
                 </section>
+                {/* Profile Image */}
+                <div className="2xl:w-96 2xl:h-96 xl:w-72 xl:h-72 w-64 h-64   -translate-y-0 2xl:mr-32 xl:mr-24 mr-0 rounded-full border-2 border-white overflow-hidden">
+                    <Image src={ProfilePic} fill={true} alt="ProfilePic" priority={true}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    ></Image>
+                </div>
             </div>
             {/* Under Large */}
             <div className="lg:hidden grow flex flex-col justify-center items-center text-white relative z-50 sm:mt-0 mt-[-60px]">
