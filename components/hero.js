@@ -124,7 +124,7 @@ const Hero = () =>{
                 </div>
             </div>
             {/* Under Large */}
-            <div className="lg:hidden grow flex flex-col justify-center items-center text-white relative z-50 sm:mt-0 mt-[-60px]">
+            <div className="lg:hidden grow flex flex-col justify-center items-center text-white relative z-10 sm:mt-0 mt-[-60px] bg-blue-200">
                 {/* Profile Image */}
                 <div className="md:w-64 md:h-64 w-56 h-56 rounded-full relative border-2 border-white overflow-hidden">
                     <Image src={ProfilePic} fill={true} alt="ProfilePic" priority={true} sizes="(max-width: 768px) 100vw,
