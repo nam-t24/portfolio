@@ -9,7 +9,7 @@ const Experience = () => {
                     <p className="">May 2023 - Aug 2023</p>
                 </div>
                 <div className="my-2 sm:text-xl text-lg 2xl:text-2xl">
-                    Incoming Software Engineering Intern
+                    Software Engineering Intern, Cyber Security & Tech Controls Team
                 </div>
             </section>
             {/* State Farm */}
