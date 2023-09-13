@@ -9,6 +9,7 @@ import HackPortal from '../public/assets/projectImages/HackPortal.png';
 import HackUTDIX from '../public/assets/projectImages/hackutdIX.png';
 import SimpliFarm from '../public/assets/projectImages/SimpliFarm.png';
 import Spinboard from '../public/assets/projectImages/Spinboard.png';
+import HackUTDX from '../public/assets/projectImages/hackutdX.png'
 
 const Projects = () => {
     return(
@@ -30,6 +31,12 @@ const Projects = () => {
                             pic={HackPortal}
                             title="HackPortal"
                             description="Hackathon event management platform aimed at assisting hackathon organizers and hackers nationwide"
+                        />
+                        <ProjectCard
+                            path="https://github.com/acmutd/hackutd-x-site"
+                            pic={HackUTDX}
+                            title="HackUTD X"
+                            description="Developed HackUTD X event site with a team of HackUTD technical officers for Fall HackUTD 2023"
                         />
                         <ProjectCard
                             path="https://github.com/raghavpillai/SimpliFarm"
