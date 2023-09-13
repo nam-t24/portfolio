@@ -5,7 +5,7 @@ const Experience = () => {
             {/* JP Morgan */}
             <section className="2xl:w-3/5 lg:w-11/12 w-full text-gray-700 2xl:text-2xl md:text-xl text-lg relative z-10 2xl:mx-auto md:mb-12 mb-10">
                 <div className="flex justify-between items-end">
-                    <h1 className="text-2xl font-bold text-black">J.P. Morgan Chase & Co.</h1>
+                    <h1 className="text-2xl font-bold text-black">J.P. Morgan</h1>
                     <p className="">June 2023 - Aug 2023</p>
                 </div>
                 <div className="my-2 sm:text-xl text-lg 2xl:text-2xl">

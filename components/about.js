@@ -44,7 +44,7 @@ const About = () =>{
     return(
         <div className="bg-[#FCFBFF] py-12 text-black 2xl:px-56 xl:px-44 lg:px-32 md:px-16 px-8">
             <h1 id="about" className="text-7xl font-semibold text-center md:mb-12 mb-8 md:pt-12 pt-8">Howdy</h1>
-            <div className=" w-full mx-auto flex relative mt-20">
+            <div className=" w-full mx-auto flex relative md:mt-20 mt-12">
             <div className="2xl:w-4/5 min-[1900px]:w-3/5 lg:w-4/5 md:w-[70%] sm:w-4/5 w-full z-10 2xl:mx-auto lg:mx-0 mx-auto">
                 <h1 className="2xl:text-5xl md:text-4xl text-3xl font-semibold xl:mb-6 mb-3">About Me</h1>
                 <p className="font-light xl:text-xl lg:text-base sm:text-lg text-base text-slate-800">

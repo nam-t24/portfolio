@@ -88,7 +88,7 @@ const Projects = () => {
 
             {/* Extra Projects Section */}
             <div className="bg-[#1C1B20] 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto rounded-xl lg:my-44 md:my-40 sm:my-32 my-28 relative">
-                <div className="text-white text-center lg:text-5xl md:text-4xl text-3xl font-semibold lg:pt-16 pt-12 relative z-10">
+                <div className="text-white text-center lg:text-5xl md:text-4xl text-3xl font-semibold lg:pt-16 sm:pt-12 pt-6 relative z-10">
                     <p className='inline'>
                         Check out the rest of my&nbsp;
                     </p>
@@ -96,7 +96,7 @@ const Projects = () => {
                         projects
                     </p>
                 </div>
-                <div className="text-white text-center md:text-3xl text-xl font-medium mt-4 lg:pb-16 pb-12 relative z-10">
+                <div className="text-white text-center md:text-3xl text-xl font-medium mt-4 lg:pb-16 sm:pb-12 pb-6 relative z-10">
                     View the timeline&nbsp;
                     <Link href="/projectTimeline"><div className="inline hover:underline text-[#7855FF]">here</div></Link>
                 </div>
