@@ -1,3 +1,4 @@
+"use client";
 import Head from 'next/head'
 import Script from 'next/script'
 import Hero from '../components/hero'
