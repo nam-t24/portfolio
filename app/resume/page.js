@@ -1,7 +1,8 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from '../public/assets/N_white.png'
-import ResumeJPG from '../public/assets/NamTruong_Resume.jpg'
+import Logo from '../../public/assets/N_white.png'
+import ResumeJPG from '../../public/assets/NamTruong_Resume.jpg'
 import Head from 'next/head'
 
 // import ResumePDF from '../public/assets/NamTruong_Resume.pdf'
