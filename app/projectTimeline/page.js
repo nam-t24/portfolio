@@ -1,9 +1,10 @@
-import SmallSection from "../components/projectTimelineSmall"
-import LargeSection from "../components/projectTimelineLarge"
+"use client";
+import SmallSection from "../../components/projectTimelineSmall"
+import LargeSection from "../../components/projectTimelineLarge"
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
 
-const DynamicHeader = dynamic(() => import('../components/projectTimelineLarge'), {
+const DynamicHeader = dynamic(() => import('../../components/projectTimelineLarge'), {
   ssr: false,
 })
 
