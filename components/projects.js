@@ -13,9 +13,9 @@ import HackUTDX from '../public/assets/projectImages/hackutdX.png'
 
 const Projects = () => {
     return(
-        <div className="bg-[#FCFBFF]">
+        <div className="bg-[#FCFBFF] relative">
             {/* Featured Projects Section */}
-            <div className=" py-12 lg:px-4 px-12">
+            <div className=" py-12 lg:px-4 px-12 ">
                 <div id="projects"className="mx-auto lg:w-4/5 flex lg:flex-row flex-col">
                     {/* Title */}
                     <div className="lg:w-1/3 lg:my-0 my-4">
@@ -63,18 +63,6 @@ const Projects = () => {
                             description="Digital sous chef web application for ACM Projects Fall 2020. First place project winner"
                         />
                         <ProjectCard
-                            path="https://github.com/acmutd/hackportal-hackutd"
-                            pic={HackUTDVIII}
-                            title="HackUTD VIII"
-                            description="Developed HackUTD VIII event site with a team of HackUTD technical officers for Fall HackUTD 2021"
-                        />
-                        <ProjectCard
-                            path="https://github.com/acmutd/hackutd-vii-site"
-                            pic={HackUTDVII}
-                            title="HackUTD VII"
-                            description="Developed HackUTD VII event site with a team of HackUTD technical officers for Spring HackUTD 2021"
-                        />
-                        <ProjectCard
                             path="https://github.com/zzeneric/Blink"
                             pic={Blink}
                             title="Blink"
@@ -87,7 +75,7 @@ const Projects = () => {
             </div>
 
             {/* Extra Projects Section */}
-            <div className="bg-[#1C1B20] 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto rounded-xl lg:my-44 md:my-40 sm:my-32 my-28 relative">
+            <div className="bg-[#1C1B20] 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto rounded-xl lg:my-44 md:my-40 sm:my-32 my-28 relative z-10">
                 <div className="text-white text-center lg:text-5xl md:text-4xl text-3xl font-semibold lg:pt-16 sm:pt-12 pt-6 relative z-10">
                     <p className='inline'>
                         Check out the rest of my&nbsp;
@@ -104,7 +92,8 @@ const Projects = () => {
                 <div className="z-0 border-2 border-[#1C1B20] absolute w-full h-full top-0 left-0 rounded-xl rotate-[4deg]"></div>
             </div>
             {/* Footer */}
-            <div className="text-base text-black lg:w-1/2 w-3/4 border-t-[1px] border-gray-500 mx-auto text-center p-2">© 2022 Nam Truong</div>
+            <div className="text-base text-black lg:w-1/2 w-3/4 border-t-[1px] border-gray-500 mx-auto text-center p-2 z-10 relative">© 2022 Nam Truong</div>
+            <div className="w-full h-36 absolute bottom-0 z-0 bg-gradient-to-t from-[#7855FF] opacity-20"></div>
         </div>
     );
 }

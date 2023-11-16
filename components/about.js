@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Image from "next/image";
 //icons
 import CPP from '../public/assets/icons/c++.svg';
@@ -20,98 +19,65 @@ import Python from '../public/assets/icons/python.png'
 import Terraform from '../public/assets/icons/terraform.png'
 import AWS from '../public/assets/icons/aws.png'
 
-import Coffee from '../public/assets/coffee.png'
-import Landscape from '../public/assets/landscape.png'
-
-
 const About = () =>{
-    const [option, setOption] = useState("0")
-
-    const changeOption = (id) => {
-        document.getElementById(option).style.fontWeight = 400;
-        document.getElementById(option).style.color = "#000000"
-        document.getElementById(`content${option}`).style.display = "none";
-
-
-
-        document.getElementById(id).style.fontWeight = 600;
-        document.getElementById(id).style.color = "#7855FF"
-        document.getElementById(`content${id}`).style.display = (id === "0" ? "block" : "flex");
-
-
-        setOption(id)
-    }
     return(
-        <div className="bg-[#FCFBFF] py-12 text-black 2xl:px-56 xl:px-44 lg:px-32 md:px-16 px-8">
-            <h1 id="about" className="text-7xl font-semibold text-center md:mb-12 mb-8 md:pt-12 pt-8">Howdy</h1>
-            <div className=" w-full mx-auto flex relative md:mt-20 mt-12">
-            <div className="2xl:w-4/5 min-[1900px]:w-3/5 lg:w-4/5 md:w-[70%] sm:w-4/5 w-full z-10 2xl:mx-auto lg:mx-0 mx-auto">
-                <h1 className="2xl:text-5xl md:text-4xl text-3xl font-semibold xl:mb-6 mb-3">About Me</h1>
-                <p className="font-light xl:text-xl lg:text-base sm:text-lg text-base text-slate-800">
-                    My name is Nam Truong and I am a third year student from the University of Texas
-                    at Dallas studying computer science. I created this site to not only
-                    highlight my work and accomplishments but to exhibit my
-                    growth within computer science.
-                    <br />
-                    <br />
-                    Currently, I am involved in the{" "}
-                    <a href="https://www.acmutd.co/index.html" className="underline" target="-blank">
-                    Association for Computing Machinery
-                    </a>
-                    , having participated in its{" "}
-                    <a href="https://www.acmutd.co/projects" className="underline" target="-blank">
-                    projects
-                    </a>{" "}
-                    division, and now part of the{" "}
-                    <a href="https://www.hackutd.co/" className="underline" target="-blank">
-                    HackUTD
-                    </a>{" "}
-                    division. After participating in my first hackathon, I became a
-                    technical officer for HackUTD to help organize and enrich the experience
-                    of the many new students who decide to partake in HackUTD in the future.
-                </p>
-            </div>
-            {/* rectangle */}
-            {/* <div className="absolute top-1/2 -translate-y-1/2 right-0 w-[35rem] h-[130%] bg-[#F5F2FD] z-0 rounded-2xl"></div> */}
-            </div>
-            <div className="2xl:w-4/5 min-[1900px]:w-3/5 w-full mx-auto 2xl:mt-36 xl:mt-30 md:mt-20 sm:mt-16 mt-10 flex lg:flex-row flex-col justify-between items-center relative">
-                {/* Rectangle */}
-                <div className="overflow-hidden xl:w-[30rem] lg:w-[25rem] sm:w-[30rem] w-[25rem] w-[20rem] sm:h-[15rem] h-[12rem] bg-[#F5F2FD] z-0 rounded-2xl lg:mb-0 mb-8">
-                    <div className="flex justify-center translate-y-[2.5rem]"><Image src={Coffee} width={500} height={500} alt="coffee"/></div>
-                </div>
-                {/* Content */}
-                <div className="lg:w-2/5 md:w-3/5 sm:w-4/5 w-full lg:mx-0 mx-auto 2xl:ml-2">
-                    <h1 className="2xl:text-5xl md:text-4xl text-3xl font-semibold xl:mb-6 mb-3">Interests</h1>
-                    <p className="font-light xl:text-xl lg:text-base sm:text-lg text-base text-slate-800">
-                        When I&#39;m not coding or learning, I enjoy weight training, playing guitar and volleyball,
-                        hiking, and creating latte art :)
+        <div className="bg-[#FCFBFF] py-12 2xl:px-56 xl:px-44 lg:px-32 md:px-16 px-8">
+            <h1 id="about" className="text-7xl font-semibold text-center md:mb-12 mb-8 md:pt-12 pt-4 text-neutral-800">Howdy</h1>
+            <div className="2xl:w-4/5 min-[1900px]:w-3/5 2xl:mx-auto mx-auto relative md:mt-20 mt-12">
+                <div className="z-10 mx-auto bg-[#F5F2FD] lg:py-16 md:py-10 py-6 md:px-24 px-8 rounded-xl">
+                    <h1 className="2xl:text-5xl md:text-4xl text-3xl font-semibold xl:mb-6 mb-3 md:text-center text-left text-neutral-800">About Me</h1>
+                    <p className="font-light xl:text-xl sm:text-lg text-base text-slate-800">
+                        My name is Nam Truong and I am a fourth year student at the University of Texas
+                        at Dallas studying computer science and finance. I created this site to not only
+                        highlight my work and accomplishments but to exhibit my
+                        growth within computer science.
+                        <br />
+                        <br />
+                        Currently, I am involved in the{" "}
+                        <a href="https://www.acmutd.co/index.html" className="underline" target="-blank">
+                        Association for Computing Machinery
+                        </a>
+                        , having participated in its{" "}
+                        <a href="https://www.acmutd.co/projects" className="underline" target="-blank">
+                        projects
+                        </a>{" "}
+                        division, and now part of the{" "}
+                        <a href="https://www.hackutd.co/" className="underline" target="-blank">
+                        HackUTD
+                        </a>{" "}
+                        division. After participating in my first hackathon, I became a
+                        technical officer for HackUTD to help organize and enrich the experience
+                        of the many new students who decide to partake in HackUTD in the future.
                     </p>
                 </div>
-            </div>
-            <div className="2xl:w-4/5 min-[1900px]:w-3/5 w-full mx-auto relative 2xl:mt-36 xl:mt-30 md:mt-20 sm:mt-16 mt-10 flex lg:flex-row flex-col items-center lg:justify-between">
-                {/* Content */}
-                <div className="lg:order-first order-last">
-                    <h1 className="2xl:text-5xl md:text-4xl text-3xl font-semibold xl:mb-6 mb-3">Hiking Bucket List</h1>
-                    <ul className="list-disc list-inside font-light xl:text-xl lg:text-base sm:text-lg text-base lg:pr-2 text-slate-800">
-                        <li className=''>The Narrows - Zion Nat. Park, Utah</li>
-                        <li className=''>Angel&#39;s Landing - Zion Nat. Park, Utah</li>
-                        <li className=''>Devil&#39;s Garden - Arches Nat. Park, Utah</li>
-                        <li className=''>Navajo Loop - Bryce Canyon Nat. Park, Utah</li>
-                        <li className=''>Grinnell Glacier - Glacier Nat. Park, Montana</li>
-                        <li className=''>Sky Pond - Rocky Mt. Nat. Park, Colorado</li>
-                        <li className=''>High Dune - Great Sand Dunes Nat. Park, Colorado</li>
-                        <li className=''>Garfield Peak - Crater Lake Nat. Park, Oregon</li>
-                    </ul>
+                <div className="flex lg:flex-row flex-col w-full mt-3 gap-3">
+                    <div className="relative lg:order-last order-first basis-2/5 bg-[#F5F2FD] rounded-xl md:py-10 py-6 md:px-12 px-8">
+                        {/* Content */}
+                        <h1 className="2xl:text-5xl lg:text-4xl text-3xl font-semibold xl:mb-6 mb-3 text-neutral-800">Interests</h1>
+                        <div className="font-light xl:text-xl sm:text-lg text-basee text-slate-800">
+                            When I&#39;m not busy, I enjoy weight training, playing guitar and volleyball,
+                            hiking, and creating latte art. I am now a matcha enthusiastic. Find me where the mountains are tall and the trees are full and green :)
+                        </div>
+                    </div>
+                    <div className="lg:order-first order-last basis-3/5 bg-[#F5F2FD] rounded-xl md:py-10 py-6 md:px-12 px-8">
+                        {/* Content */}
+                        <h1 className="2xl:text-5xl lg:text-4xl text-3xl font-semibold xl:mb-6 mb-3 text-neutral-800">Hiking Bucket List</h1>
+                        <ul className="list-disc list-inside font-light xl:text-xl sm:text-lg text-base lg:pr-2 text-slate-800">
+                            <li className=''>The Narrows - Zion Nat. Park, Utah</li>
+                            <li className=''>Angel&#39;s Landing - Zion Nat. Park, Utah</li>
+                            <li className=''>Devil&#39;s Garden - Arches Nat. Park, Utah</li>
+                            <li className=''>Navajo Loop - Bryce Canyon Nat. Park, Utah</li>
+                            <li className=''>Grinnell Glacier - Glacier Nat. Park, Montana</li>
+                            <li className=''>Sky Pond - Rocky Mt. Nat. Park, Colorado</li>
+                            <li className=''>High Dune - Great Sand Dunes Nat. Park, Colorado</li>
+                            <li className=''>Garfield Peak - Crater Lake Nat. Park, Oregon</li>
+                        </ul>
+                    </div>
                 </div>
-                {/* Rectangle */}
-                <div className="lg:order-last order-first overflow-hidden xl:w-[30rem] lg:w-[25rem] md:w-[30rem] sm:w-[25rem] w-[20rem] xl:h-[20rem] lg:h-[15rem] md:h-[20rem] sm:h-[15rem] h-[12rem] bg-rose-50 z-0 rounded-2xl lg:mb-0 mb-8">
-                    <div className="w-[120%]  translate-y-[30%] -translate-x-[10%]"><Image src={Landscape} width={600} height={100} alt="grand canyon"/></div>
-                </div>
-
             </div>
 
             <div className="border-[1px] border-violet-500 2xl:mt-36 xl:mt-30 md:mt-20 sm:mt-16 mt-10 rounded-2xl sm:p-16 p-12 2xl:w-4/5 min-[1900px]:w-3/5 2xl:mx-auto">
-                <h1 className="md:text-5xl text-4xl font-semibold mb-10 text-center">Technologies</h1>
+                <h1 className="md:text-5xl text-4xl font-semibold mb-10 text-center text-neutral-800">Technologies</h1>
                 <div className="flex flex-row flex-wrap justify-around">
                     <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Python} alt="Python" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
                     <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Java} alt="Java" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
@@ -132,11 +98,7 @@ const About = () =>{
                     <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={VSCode} alt="VSCode" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
                     <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Terminal} alt="Terminal" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
                 </div>
-
-
             </div>
-
-
         </div>
     );
 }
