@@ -41,6 +41,13 @@ a {
   background: radial-gradient(ellipse farthest-side at bottom center, rgb(45, 38, 74) 0%, rgba(45, 38, 68, 0.818) 7%, rgba(0,212,255,0) 50%);
 }
 
+.resumeGradient {
+  background: rgb(45,38,68);
+  background: -moz-radial-gradient(ellipse farthest-side at bottom center, rgb(60, 48, 106) 0%, rgba(56, 46, 89, 0.818) 7%, rgba(0,212,255,0) 50%);
+  background: -webkit-radial-gradient(ellipse farthest-side at bottom center, rgb(60, 48, 106) 0%, rgba(56, 46, 89, 0.818) 7%, rgba(0,212,255,0) 50%);
+  background: radial-gradient(ellipse farthest-side at bottom center, rgb(60, 48, 106) 0%, rgba(56, 46, 89, 0.818) 7%, rgba(0,212,255,0) 50%);
+}
+
 @media only screen and (max-width: 640px) {
   .heroGradient {
     background: rgb(45,38,68);
@@ -48,8 +55,13 @@ a {
     background: -webkit-radial-gradient(ellipse farthest-side at bottom center, rgb(51, 43, 85) 0%, rgba(52, 44, 80, 0.9) 7%, rgba(0,212,255,0) 50%);
     background: radial-gradient(ellipse farthest-side at bottom center, rgb(51, 43, 85) 0%, rgba(52, 44, 80, 0.9) 7%, rgba(0,212,255,0) 50%);
   }
-
-} 
+  .resumeGradient {
+    background: rgb(45,38,68);
+    background: -moz-radial-gradient(ellipse farthest-side at bottom center, rgb(60, 48, 106) 0%, rgba(56, 46, 89, 0.818) 7%, rgba(0,212,255,0) 50%);
+    background: -webkit-radial-gradient(ellipse farthest-side at bottom center, rgb(60, 48, 106) 0%, rgba(56, 46, 89, 0.818) 7%, rgba(0,212,255,0) 50%);
+    background: radial-gradient(ellipse farthest-side at bottom center, rgb(60, 48, 106) 0%, rgba(56, 46, 89, 0.818) 7%, rgba(0,212,255,0) 50%);
+  }
+}
 
 /*Blinking typewriter effect*/
 @-webkit-keyframes typeBlink {

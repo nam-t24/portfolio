@@ -31,7 +31,7 @@ const Resume = () => {
                 </div>
             </div>
             {/* Underglow */}
-            <div className="absolute heroGradient top-0 -translate-x-1/2 left-1/2 w-[250%] h-full z-0"></div>
+            <div className="absolute resumeGradient top-0 -translate-x-1/2 left-1/2 w-[250%] h-full z-0"></div>
         </div>
     );
 }

@@ -27,7 +27,7 @@ export default function Home() {
       <About/>
       <Experience/>
       <Projects/>
-      {/* <Footer/> */}
+      <Footer/>
 
     </div>
   )

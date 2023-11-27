@@ -90,8 +90,8 @@ const Projects = () => {
                 <div className="z-0 border-2 border-[#1C1B20] absolute w-full h-full top-0 left-0 rounded-xl rotate-[4deg]"></div>
             </div>
             {/* Footer */}
-            <div className="text-base text-black lg:w-1/2 w-3/4 border-t-[1px] border-gray-500 mx-auto text-center p-2 z-10 relative">© 2022 Nam Truong</div>
-            <div className="w-full h-36 absolute bottom-0 z-0 bg-gradient-to-t from-[#7855FF] opacity-20"></div>
+            {/* <div className="text-base text-black lg:w-1/2 w-3/4 border-t-[1px] border-gray-500 mx-auto text-center p-2 z-10 relative">© 2022 Nam Truong</div>
+            <div className="w-full h-36 absolute bottom-0 z-0 bg-gradient-to-t from-[#7855FF] opacity-20"></div> */}
         </div>
     );
 }
