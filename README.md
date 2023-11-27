@@ -1,3 +1,3 @@
 Portfolio Site
 
-Built on NextJS, deployed on Netlify
+Built on Next.js 14, deployed on Vercel
