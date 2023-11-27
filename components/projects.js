@@ -1,15 +1,13 @@
 import ProjectCard from "./projectCard";
 import Link from "next/link";
 //project images
-import CookAlong from '../public/assets/projectImages/CookAlong.png'
-import Blink from '../public/assets/projectImages/blink.png';
-import HackUTDVIII from '../public/assets/projectImages/hackutdVIII.png';
-import HackUTDVII from '../public/assets/projectImages/hackutdVII.png';
-import HackPortal from '../public/assets/projectImages/HackPortal.png';
-import HackUTDIX from '../public/assets/projectImages/hackutdIX.png';
-import SimpliFarm from '../public/assets/projectImages/SimpliFarm.png';
-import Spinboard from '../public/assets/projectImages/Spinboard.png';
-import HackUTDX from '../public/assets/projectImages/hackutdX.png'
+import CookAlong from '../public/assets/projectImages/CookAlong.jpg'
+import Blink from '../public/assets/projectImages/blink.jpg';
+import HackPortal from '../public/assets/projectImages/HackPortal.jpg';
+import HackUTDIX from '../public/assets/projectImages/hackutdIX.jpg';
+import SimpliFarm from '../public/assets/projectImages/SimpliFarm.jpg';
+import Spinboard from '../public/assets/projectImages/Spinboard.jpg';
+import HackUTDX from '../public/assets/projectImages/hackutdX.jpg'
 
 const Projects = () => {
     return(
