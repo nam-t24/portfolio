@@ -5,9 +5,9 @@ const caveat = Caveat({ subsets: ['latin'] })
 
 const Footer = () => {
     return(
-        <div className="bg-[#111013] text-white pt-16 text-center">
+        <div className="bg-[#1C1B20] text-white pt-16 text-center">
             <div className={`${caveat.className} text-7xl`}>Nam Truong</div>
-            <div className='text-sm text-neutral-400 mt-8'>Software Engineer</div>
+            <div className='text-sm text-neutral-400 md:mt-8 mt-6'>Software Engineer</div>
             <div className='text-sm text-neutral-400'>Based in Dallas, Texas</div>
             <div className='flex justify-center font-light space-x-3 > * + * text-sm mt-8'>
                 <Link href="https://www.linkedin.com/in/namtruongcs/" target="_blank" rel="noreferrer">LINKEDIN</Link>

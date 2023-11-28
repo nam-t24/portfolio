@@ -11,7 +11,7 @@ import HackUTDX from '../public/assets/projectImages/hackutdX.jpg'
 
 const Projects = () => {
     return(
-        <div className="bg-[#FCFBFF] relative">
+        <div className="bg-[#FCFBFF] relative lg:pb-44 md:pb-40 sm:pb-32 pb-28">
             {/* Featured Projects Section */}
             <div className=" py-12 lg:px-4 px-12 ">
                 <div id="projects"className="mx-auto lg:w-4/5 flex lg:flex-row flex-col">
@@ -73,7 +73,7 @@ const Projects = () => {
             </div>
 
             {/* Extra Projects Section */}
-            <div className="bg-[#1C1B20] 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto rounded-xl lg:my-44 md:my-40 sm:my-32 my-28 relative z-10">
+            <div className="bg-[#1C1B20] 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto rounded-xl lg:mt-44 md:mt-40 sm:mt-32 mt-28 relative z-10">
                 <div className="text-white text-center lg:text-5xl md:text-4xl text-3xl font-semibold lg:pt-16 sm:pt-12 pt-6 relative z-10">
                     <p className='inline'>
                         Check out the rest of my&nbsp;

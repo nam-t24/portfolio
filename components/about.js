@@ -56,7 +56,9 @@ const About = () =>{
                         <h1 className="2xl:text-5xl lg:text-4xl text-3xl font-semibold xl:mb-6 mb-3 text-neutral-800">Interests</h1>
                         <div className="font-light xl:text-xl sm:text-lg text-basee text-slate-800">
                             When I&#39;m not busy, I enjoy weight training, playing guitar and volleyball,
-                            hiking, and creating latte art. I am now a matcha enthusiastic. Find me where the mountains are tall and the trees are full and green :)
+                            hiking, and creating latte art. I also really love matcha now :)
+                            <br/>
+                            Some music genres I like to listen to are folk and a little bit of country.
                         </div>
                     </div>
                     <div className="lg:order-first order-last basis-3/5 bg-[#F5F2FD] rounded-xl md:py-10 py-6 md:px-12 px-8">
