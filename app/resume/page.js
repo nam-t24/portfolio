@@ -6,10 +6,6 @@ import ResumeJPG from '../../public/assets/NamTruong_Resume.jpg'
 import Head from 'next/head'
 
 // import ResumePDF from '../public/assets/NamTruong_Resume.pdf'
-export const metadata = {
-  title: 'Nam Truong | Resume',
-  description: "Nam Truong's Resume",
-}
 
 const Resume = () => {
     return(
