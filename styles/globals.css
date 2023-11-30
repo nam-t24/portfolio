@@ -159,7 +159,7 @@ box-shadow:  26px 26px 52px #d3d3d3,
 }
 
 .extraProjectBackground {
-  background-color: rgba(252, 252, 255, 0.8);
+  background-color: rgba(252, 252, 255, 0.561);
   backdrop-filter: blur(7px);
 }
 

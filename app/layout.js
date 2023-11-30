@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 
 export const metadata = {
+  metadataBase: new URL('http://localhost:3000/'),
   title: 'Nam Truong | Portfolio',
   description: 'A student at the University of Texas at Dallas, Nam Truong is an aspiring software engineer.',
   icon: '/favicon.ico',
