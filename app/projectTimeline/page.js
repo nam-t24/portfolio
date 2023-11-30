@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Logo from '../../public/assets/N_black.png'
+import Logo from './N_black.png'
 import ExtraProjectCard from "../../components/extraProjectCard";
 
 const ProjectTimeline = () => {
