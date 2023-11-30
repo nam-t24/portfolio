@@ -6,17 +6,14 @@ import ResumeJPG from '../../public/assets/NamTruong_Resume.jpg'
 import Head from 'next/head'
 
 // import ResumePDF from '../public/assets/NamTruong_Resume.pdf'
-
+export const metadata = {
+  title: 'Nam Truong | Resume',
+  description: "Nam Truong's Resume",
+}
 
 const Resume = () => {
     return(
         <div className="min-h-screen bg-[#1B1A1E] relative overflow-hidden">
-            <Head>
-                <title>Nam Truong | Resume</title>
-                <meta name="description" content="Nam Truong's resume" />
-                <link rel="icon" href="/favicon.ico" />
-                <meta name="description" property="og:description" content="Nam Truong's resume" />
-            </Head>
             <div className="px-4 z-10 relative">
                 {/* Header */}
                 <div className="h-[5rem] flex items-center py-3 lg:px-20 md:px-16 sm:px-8 px-4">
