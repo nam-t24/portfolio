@@ -11,9 +11,6 @@ body {
   scroll-behavior: smooth;
 }
 
-h1 {
-  font-family: 'Titillium Web', sans-serif !important;
-}
 
 a {
   color: inherit;
@@ -201,7 +198,7 @@ box-shadow:  26px 26px 52px #d3d3d3,
 }
 
 .resumeButton {
- --color: #ac52ec;
+ --color: #8264F4;
  font-family: inherit;
  position: relative;
  overflow: hidden;

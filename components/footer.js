@@ -9,12 +9,12 @@ const Footer = () => {
             <div className={`${caveat.className} text-7xl`}>Nam Truong</div>
             <div className='text-sm text-neutral-400 md:mt-8 mt-6'>Software Engineer</div>
             <div className='text-sm text-neutral-400'>Based in Dallas, Texas</div>
-            <div className='flex justify-center font-light space-x-3 > * + * text-sm mt-8'>
-                <Link href="https://www.linkedin.com/in/namtruongcs/" target="_blank" rel="noreferrer">LINKEDIN</Link>
+            <div className='flex justify-center font-light space-x-3 > * + * text-sm mt-8 tracking-wider'>
+                <Link href="https://www.linkedin.com/in/namtruongcs/" target="_blank" rel="noreferrer" className='hover:underline'>LINKEDIN</Link>
                 <p className='text-neutral-400'>/</p>
-                <Link href="https://github.com/nam-t24" target="_blank" rel="noreferrer">GITHUB</Link>
+                <Link href="https://github.com/nam-t24" target="_blank" rel="noreferrer" className='hover:underline'>GITHUB</Link>
                 <p className='text-neutral-400'>/</p>
-                <Link href="mailto:namtruong831@gmail.com" target="_blank" rel="noopener noreferrer">EMAIL</Link>
+                <Link href="mailto:namtruong831@gmail.com" target="_blank" rel="noopener noreferrer" className='hover:underline'>EMAIL</Link>
 
 
             </div>

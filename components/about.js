@@ -78,8 +78,8 @@ const About = () =>{
                 </div>
             </div>
 
-            <div className="border-[1px] border-violet-500 2xl:mt-36 xl:mt-30 md:mt-20 sm:mt-16 mt-10 rounded-2xl sm:p-16 p-12 2xl:w-4/5 min-[1900px]:w-3/5 2xl:mx-auto">
-                <h1 className="md:text-5xl text-4xl font-semibold mb-10 text-center text-neutral-800">Technologies</h1>
+            <div className="border-[1px] border-violet-500 group hover:border-purple-400 transition ease-in-out duration-300 2xl:mt-36 xl:mt-30 md:mt-20 sm:mt-16 mt-10 rounded-2xl sm:p-16 p-12 2xl:w-4/5 min-[1900px]:w-3/5 2xl:mx-auto">
+                <h1 className="md:text-5xl text-4xl font-semibold mb-10 text-center text-neutral-800 group-hover:text-purple-500 transition ease-in-out duration-500">Technologies</h1>
                 <div className="flex flex-row flex-wrap justify-around">
                     <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Python} alt="Python" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
                     <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Java} alt="Java" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>

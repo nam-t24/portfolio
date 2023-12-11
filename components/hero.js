@@ -1,7 +1,10 @@
 import { useEffect } from "react";
+import { Oswald } from "next/font/google"; 'next/font/google';
 import Navbar from "./navbar";
 import Image from "next/image";
 import ProfilePic from "../public/assets/pfp.jpg"
+
+const oswald = Oswald({ subsets: ['latin'] })
 
 const Hero = () =>{
     useEffect(()=>{
@@ -69,18 +72,19 @@ const Hero = () =>{
         <div className="min-h-screen bg-[#111013] flex flex-col relative overflow-hidden">
             <Navbar/>
             {/* Lg and above */}
-            <div className="hidden text-white grow z-50 relative px-24 lg:flex justify-between items-center">
+            <div className="hidden text-white grow z-50 relative 2xl:px-48 px-24 lg:flex justify-between items-center">
                 {/* Text */}
                 <section className="flex flex-col justify-center">
-                    <h1 className="2xl:text-9xl text-7xl 2xl:font-semibold font-semibold">Nam Truong</h1>
+                    <h1 className={`${oswald.className} 2xl:text-9xl text-7xl tracking-wider font-medium`}>Hello, I&#39;m</h1>
+                    <h1 className={`${oswald.className} 2xl:text-9xl text-7xl 2xl:my-8 my-4 tracking-wider font-medium text-[#8264F4]`}>Nam Truong</h1>
                     <p className='z-10 my-4'>
                         <span
                             data-period="1500"
-                            className="typewrite typeBlink text-3xl 2xl:text-4xl"
+                            className="typewrite typeBlink text-3xl 2xl:text-5xl"
                             data-type='["Student at the University of Texas at Dallas", "B.S. in Computer Science", "Minor in Finance", "SWE Intern @ J.P. Morgan","Ardent Explorer and Hiker","Casual Volleyball Player", "Açaí Enthusiast", "Thanks for reading!"]'
                         ></span>
                     </p>
-                    <div id="socials" className = "socials text-4xl text-white">
+                    <div id="socials" className = "socials 2xl:text-5xl text-4xl text-white">
                         <a
                             href="https://github.com/nam-t24"
                             target="_blank"

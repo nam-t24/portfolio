@@ -8,7 +8,7 @@ const ProjectTimeline = () => {
       <>
         <div className="min-h-screen bg-[#D6DBDC] relative overflow-hidden">
             {/* Header */}
-            <div className="h-[5rem] flex items-center py-3 lg:px-20 md:px-16 sm:px-8 px-4 relative z-10">
+            <div className="h-[5rem] flex items-center py-3 2xl:px-32 lg:px-20 md:px-16 sm:px-8 px-4 relative z-10">
                 <Link href="/">
                     <Image src={Logo} alt="Logo" width={40} height="auto"></Image>
                 </Link>
