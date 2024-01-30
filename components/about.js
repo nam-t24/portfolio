@@ -25,7 +25,7 @@ const About = () =>{
                         <a href="https://www.hackutd.co/" className="underline" target="-blank">
                         HackUTD.
                         </a>{" "}
-                        During university summers, I taught computer science bootcamps and interned as a softare engineer at State Farm and J.P. Morgan Chase & Co.
+                        During university summers, I taught computer science bootcamps and interned as a software engineer at State Farm and J.P. Morgan Chase & Co.
 
                     </p>
                 </div>
