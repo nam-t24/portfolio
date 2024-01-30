@@ -1,23 +1,3 @@
-import Image from "next/image";
-//icons
-import CPP from '../public/assets/icons/c++.svg';
-import Java from '../public/assets/icons/java.png';
-import Ruby from '../public/assets/icons/ruby.png';
-import JS from '../public/assets/icons/javascript.png';
-import TS from '../public/assets/icons/typescript.png';
-import HTML from '../public/assets/icons/html.png';
-import CSS from '../public/assets/icons/css.png';
-import SQL from '../public/assets/icons/sql.png';
-import react from '../public/assets/icons/react.png';
-import NextJS from '../public/assets/icons/NextJs.png';
-import Rails from '../public/assets/icons/rails.png';
-import Git from '../public/assets/icons/git.png';
-import VSCode from '../public/assets/icons/vscode.png';
-import Terminal from '../public/assets/icons/terminal.png';
-import Firebase from '../public/assets/icons/firebase.png';
-import Python from '../public/assets/icons/python.png'
-import Terraform from '../public/assets/icons/terraform.png'
-import AWS from '../public/assets/icons/aws.png'
 
 const About = () =>{
     return(
@@ -33,7 +13,7 @@ const About = () =>{
                         growth within computer science.
                         <br />
                         <br />
-                        Currently, I am involved in the{" "}
+                        I have been involved in the{" "}
                         <a href="https://www.acmutd.co/index.html" className="underline" target="-blank">
                         Association for Computing Machinery
                         </a>
@@ -41,13 +21,12 @@ const About = () =>{
                         <a href="https://www.acmutd.co/projects" className="underline" target="-blank">
                         projects
                         </a>{" "}
-                        division, and now part of the{" "}
+                        division and became a technical officer at{" "}
                         <a href="https://www.hackutd.co/" className="underline" target="-blank">
-                        HackUTD
+                        HackUTD.
                         </a>{" "}
-                        division. After participating in my first hackathon, I became a
-                        technical officer for HackUTD to help organize and enrich the experience
-                        of the many new students who decide to partake in HackUTD in the future.
+                        During university summers, I taught computer science bootcamps and interned as a softare engineer at State Farm and J.P. Morgan Chase & Co.
+
                     </p>
                 </div>
                 <div className="flex lg:flex-row flex-col w-full mt-3 gap-3">
@@ -59,6 +38,8 @@ const About = () =>{
                             hiking, and creating latte art. I also really love matcha now :)
                             <br/>
                             Some music genres I like to listen to are folk and a little bit of country.
+                            <br/>
+                            My favorite movies include Fantastic Mr. Fox, Eternal Sunshine of a Spotless Mind, and Dune.
                         </div>
                     </div>
                     <div className="lg:order-first order-last basis-3/5 bg-[#F5F2FD] rounded-xl md:py-10 py-6 md:px-12 px-8">
@@ -77,28 +58,41 @@ const About = () =>{
                     </div>
                 </div>
             </div>
-
-            <div className="border-[1px] border-violet-500 group hover:border-purple-400 transition ease-in-out duration-300 2xl:mt-36 xl:mt-30 md:mt-20 sm:mt-16 mt-10 rounded-2xl sm:p-16 p-12 2xl:w-4/5 min-[1900px]:w-3/5 2xl:mx-auto">
-                <h1 className="md:text-5xl text-4xl font-semibold mb-10 text-center text-neutral-800 group-hover:text-purple-500 transition ease-in-out duration-500">Technologies</h1>
-                <div className="flex flex-row flex-wrap justify-around">
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Python} alt="Python" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Java} alt="Java" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={JS} alt="Javascript" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={TS} alt="Typescript" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={CPP} alt="c++priority={true} " fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Ruby} alt="Ruby" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={HTML} alt="HTML" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={CSS} alt="CSS" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={react} alt="react" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-20 sm:w-16 w-12 lg:h-16 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={NextJS} alt="NextJS" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-20 sm:w-16 w-12 lg:h-16 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Rails} alt="RubyOnRails" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Firebase} alt="Firebase" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={SQL} alt="SQL" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Terraform} alt="Terraform" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={AWS} alt="AWS" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Git} alt="Git" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={VSCode} alt="VSCode" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
-                    <div className="relative lg:w-14 sm:w-12 w-10 lg:h-14 sm:h-12 h-10 lg:mx-8 sm:mx-6 mx-4 sm:my-6 my-4"><Image src={Terminal} alt="Terminal" priority={true} fill={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/></div>
+            <div className="md:flex text-slate-700 2xl:mt-36 xl:mt-30 md:mt-20 sm:mt-16 mt-10 2xl:w-4/5 min-[1900px]:w-3/5 2xl:mx-auto mx-auto 2xl:mb-16 md:mb-12 mb-8">
+                <div className="text-neutral-800 2xl:text-5xl text-4xl font-semibold 2xl:w-[18rem] w-[15rem] md:mb-0 mb-4">Skills</div>
+                <div className="flex">
+                <div className="2xl:w-[20rem] md:w-[14rem] w-[10rem]">
+                    <p className="text-neutral-800 2xl:text-2xl text-xl font-semibold mb-2">Languages</p>
+                    <ul className="2xl:text-lg text-base">
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Typescript</li>
+                        <li>Ruby</li>
+                        <li>C++</li>
+                        <li>HTML/CSS</li>
+                        <li>SQL</li>
+                        <li>Terraform</li>
+                    </ul>
+                </div>
+                <div className="2xl:w-[20rem] md:w-[14rem] w-[10rem]">
+                    <p className="text-neutral-800 2xl:text-2xl text-xl font-semibold mb-2">Tools</p>
+                    <ul className="2xl:text-lg text-base">
+                        <li>Git</li>
+                        <li>AWS</li>
+                        <li>Firebase</li>
+                        <li>Supabase</li>
+                    </ul>
+                </div>
+                <div className="2xl:w-[20rem] md:w-[14rem]">
+                    <p className="text-neutral-800 2xl:text-2xl text-xl font-semibold mb-2">Frameworks</p>
+                    <ul className="2xl:text-lg text-base">
+                        <li>React</li>
+                        <li>Next.JS</li>
+                        <li>Spring Boot</li>
+                        <li>Ruby on Rails</li>
+                        <li>Tailwind</li>
+                    </ul>
+                </div>
                 </div>
             </div>
         </div>
