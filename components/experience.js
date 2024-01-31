@@ -1,6 +1,6 @@
 const Experience = () => {
     return (
-        <div className="lg:bg-[url('../public/assets/experienceBG.jpeg')] bg-[url('../public/assets/experienceBG_sm.jpeg')] bg-cover md:py-24 py-20 2xl:px-56 xl:px-44 lg:px-32 md:px-16 px-8 overflow-hidden relative">
+        <div className="2xl:bg-[url('../public/assets/experienceBG_lg.svg')] lg:bg-[url('../public/assets/experienceBG.jpeg')] bg-[url('../public/assets/experienceBG_sm.jpeg')] bg-cover md:py-24 py-20 2xl:px-56 xl:px-44 lg:px-32 md:px-16 px-8 overflow-hidden relative">
             <h1 className="md:text-7xl text-6xl font-semibold md:mb-12 mb-8 relative z-10 2xl:w-3/5 2xl:mx-auto text-[#392686]">Experience</h1>
             {/* JP Morgan */}
             <section className="2xl:w-3/5 lg:w-11/12 w-full text-gray-700 2xl:text-2xl md:text-xl text-lg relative z-10 2xl:mx-auto md:mb-12 mb-10">
