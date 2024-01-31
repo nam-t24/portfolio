@@ -74,16 +74,7 @@ const About = () =>{
                         <li>Terraform</li>
                     </ul>
                 </div>
-                <div className="2xl:w-[20rem] md:w-[14rem] w-[10rem]">
-                    <p className="text-neutral-800 2xl:text-2xl text-xl font-semibold mb-2">Tools</p>
-                    <ul className="2xl:text-lg text-base">
-                        <li>Git</li>
-                        <li>AWS</li>
-                        <li>Firebase</li>
-                        <li>Supabase</li>
-                    </ul>
-                </div>
-                <div className="2xl:w-[20rem] md:w-[14rem]">
+                 <div className="2xl:w-[20rem] md:w-[14rem]">
                     <p className="text-neutral-800 2xl:text-2xl text-xl font-semibold mb-2">Frameworks</p>
                     <ul className="2xl:text-lg text-base">
                         <li>React</li>
@@ -91,6 +82,15 @@ const About = () =>{
                         <li>Spring Boot</li>
                         <li>Ruby on Rails</li>
                         <li>Tailwind</li>
+                    </ul>
+                </div>
+                <div className="2xl:w-[20rem] md:w-[14rem] w-[10rem]">
+                    <p className="text-neutral-800 2xl:text-2xl text-xl font-semibold mb-2">Tools</p>
+                    <ul className="2xl:text-lg text-base">
+                        <li>Git</li>
+                        <li>AWS</li>
+                        <li>Firebase</li>
+                        <li>Supabase</li>
                     </ul>
                 </div>
                 </div>
