@@ -18,7 +18,7 @@ const Footer = () => {
 
 
             </div>
-            <div className="lg:w-1/2 w-3/5 border-t-[1px] border-neutral-400 mx-auto text-center p-2 mt-16">© 2022 Nam Truong</div>
+            <div className="lg:w-1/2 w-3/5 border-t-[1px] border-neutral-400 mx-auto text-center p-2 mt-16">Made with ♡ by Nam</div>
         </div>
     );
 }

@@ -11,9 +11,9 @@ import HackUTDX from '../public/assets/projectImages/hackutdX.jpg'
 
 const Projects = () => {
     return(
-        <div className="bg-[#FCFBFF] relative lg:pb-44 md:pb-40 sm:pb-32 pb-28">
+        <div className="bg-[#FBF9FF] relative lg:pb-44 md:pb-40 sm:pb-32 pb-28 2xl:pt-16 pt-10">
             {/* Featured Projects Section */}
-            <div className=" py-12 lg:px-4 px-12 ">
+            <div className="2xl:py-16 py-12 lg:px-4 px-12">
                 <div id="projects"className="mx-auto lg:w-4/5 flex lg:flex-row flex-col">
                     {/* Title */}
                     <div className="lg:w-1/3 lg:my-0 my-4">

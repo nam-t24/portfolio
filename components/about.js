@@ -35,11 +35,11 @@ const About = () =>{
                         <h1 className="2xl:text-5xl lg:text-4xl text-3xl font-semibold xl:mb-6 mb-3 text-neutral-800">Interests</h1>
                         <div className="font-light xl:text-xl sm:text-lg text-basee text-slate-800">
                             When I&#39;m not busy, I enjoy weight training, playing guitar and volleyball,
-                            hiking, and creating latte art. I also really love matcha now :)
+                            hiking, and creating latte art.
                             <br/>
                             Some music genres I like to listen to are folk and a little bit of country.
                             <br/>
-                            My favorite movies include Fantastic Mr. Fox, Eternal Sunshine of a Spotless Mind, and Dune.
+                            I also started to really enjoy films and some of my favorites include Fantastic Mr. Fox, Eternal Sunshine of a Spotless Mind, and Dune.
                         </div>
                     </div>
                     <div className="lg:order-first order-last basis-3/5 bg-[#F5F2FD] rounded-xl md:py-10 py-6 md:px-12 px-8">
@@ -57,42 +57,8 @@ const About = () =>{
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div className="md:flex text-slate-700 2xl:mt-36 xl:mt-30 md:mt-20 sm:mt-16 mt-10 2xl:w-4/5 min-[1900px]:w-3/5 2xl:mx-auto mx-auto 2xl:mb-16 md:mb-12 mb-8">
-                <div className="text-neutral-800 2xl:text-5xl text-4xl font-semibold 2xl:w-[18rem] w-[15rem] md:mb-0 mb-4">Skills</div>
-                <div className="flex">
-                <div className="2xl:w-[20rem] md:w-[14rem] w-[10rem]">
-                    <p className="text-neutral-800 2xl:text-2xl text-xl font-semibold mb-2">Languages</p>
-                    <ul className="2xl:text-lg text-base">
-                        <li>Java</li>
-                        <li>Python</li>
-                        <li>Typescript</li>
-                        <li>Ruby</li>
-                        <li>C++</li>
-                        <li>HTML/CSS</li>
-                        <li>SQL</li>
-                        <li>Terraform</li>
-                    </ul>
-                </div>
-                 <div className="2xl:w-[20rem] md:w-[14rem]">
-                    <p className="text-neutral-800 2xl:text-2xl text-xl font-semibold mb-2">Frameworks</p>
-                    <ul className="2xl:text-lg text-base">
-                        <li>React</li>
-                        <li>Next.JS</li>
-                        <li>Spring Boot</li>
-                        <li>Ruby on Rails</li>
-                        <li>Tailwind</li>
-                    </ul>
-                </div>
-                <div className="2xl:w-[20rem] md:w-[14rem] w-[10rem]">
-                    <p className="text-neutral-800 2xl:text-2xl text-xl font-semibold mb-2">Tools</p>
-                    <ul className="2xl:text-lg text-base">
-                        <li>Git</li>
-                        <li>AWS</li>
-                        <li>Firebase</li>
-                        <li>Supabase</li>
-                    </ul>
-                </div>
+                <div className="text-slate-800 2xl:text-2xl lg:text-xl md:text-lg text-base font-light bg-[#EEF1FB] rounded-xl text-center 2xl:py-12 md:py-8 py-6 xl:px-12 px-6 xl:mt-32 md:mt-20 mt-12 lg:mb-24 md:mb-16 mb-8">
+                &quot;There are many things in life that will catch your eye, but only a few will catch your heart. Pursue those.&quot; - Michael Nolan
                 </div>
             </div>
         </div>
