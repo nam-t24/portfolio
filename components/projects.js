@@ -11,7 +11,7 @@ import HackUTDX from '../public/assets/projectImages/hackutdX.jpg'
 
 const Projects = () => {
     return(
-        <div className="bg-[#FBF9FF] relative lg:pb-44 md:pb-40 sm:pb-32 pb-28 2xl:pt-16 pt-10">
+        <div className="bg-[#FBF9FF] relative lg:pb-44 md:pb-40 sm:pb-32 pb-28 2xl:pt-16 md:pt-10">
             {/* Featured Projects Section */}
             <div className="2xl:py-16 py-12 lg:px-4 px-12">
                 <div id="projects"className="mx-auto lg:w-4/5 flex lg:flex-row flex-col">
@@ -28,19 +28,19 @@ const Projects = () => {
                             path="https://github.com/acmutd/hackportal"
                             pic={HackPortal}
                             title="HackPortal"
-                            description="Hackathon event management platform aimed at assisting hackathon organizers and hackers nationwide"
+                            description="Hackathon event management platform aimed at assisting hackathon organizers nationwide"
                         />
                         <ProjectCard
                             path="https://github.com/acmutd/hackutd-x-site"
                             pic={HackUTDX}
                             title="HackUTD X"
-                            description="Developed HackUTD X event site with a team of HackUTD technical officers for Fall HackUTD 2023"
+                            description="HackUTD X event site for Fall HackUTD 2023"
                         />
                         <ProjectCard
                             path="https://github.com/raghavpillai/SimpliFarm"
                             pic={SimpliFarm}
                             title="SimpliFarm - HackTX"
-                            description="Constructed a machine learning application to determine optimal water and fertilization usage for farmers"
+                            description="Machine learning application to determine optimal water and fertilization usage for farmers"
                         />
                         <ProjectCard
                             path="https://github.com/"
@@ -52,19 +52,13 @@ const Projects = () => {
                             path="https://github.com/acmutd/hackutd-ix-site"
                             pic={HackUTDIX}
                             title="HackUTD IX"
-                            description="Developed HackUTD IX event site with a team of HackUTD technical officers for Fall HackUTD 2022"
+                            description="HackUTD IX event site for Fall HackUTD 2022"
                         />
                         <ProjectCard
                             path="https://github.com/acm-projects/CookAlong"
                             pic={CookAlong}
                             title="CookAlong"
                             description="Digital sous chef web application for ACM Projects Fall 2020. First place project winner"
-                        />
-                        <ProjectCard
-                            path="https://github.com/zzeneric/Blink"
-                            pic={Blink}
-                            title="Blink"
-                            description="Real-time video conference platform that mimics an engaging classroom environment using integrated activities for HackDFW 2021"
                         />
                     </div>
 
@@ -73,7 +67,7 @@ const Projects = () => {
             </div>
 
             {/* Extra Projects Section */}
-            <div className="bg-[#1C1B20] 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto rounded-xl lg:mt-44 md:mt-40 sm:mt-32 mt-28 relative z-10">
+            <div className="bg-[#1C1B20] 2xl:w-3/5 lg:w-4/5 w-11/12 mx-auto rounded-xl lg:mt-40 md:mt-36 sm:mt-32 mt-20 relative z-10">
                 <div className="text-white text-center lg:text-5xl md:text-4xl text-3xl font-semibold lg:pt-16 sm:pt-12 pt-6 relative z-10">
                     <p className='inline'>
                         Check out the rest of my&nbsp;
