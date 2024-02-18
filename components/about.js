@@ -39,7 +39,7 @@ const About = () =>{
                             <br/>
                             Some music genres I like to listen to are folk and a little bit of country.
                             <br/>
-                            I also started to really enjoy films and some of my favorites include Fantastic Mr. Fox, Eternal Sunshine of a Spotless Mind, and Dune.
+                            I also started to really enjoy films and some of my favorites include Fantastic Mr. Fox, Eternal Sunshine of the Spotless Mind, and Dune.
                         </div>
                     </div>
                     <div className="lg:order-first order-last basis-3/5 bg-[#F5F2FD] rounded-xl md:py-10 py-6 md:px-12 px-8">
