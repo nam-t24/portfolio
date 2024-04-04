@@ -7,8 +7,6 @@ export const metadata = {
   metadataBase: new URL('http://localhost:3000/'),
   title: 'Nam Truong | Portfolio',
   description: 'A student at the University of Texas at Dallas, Nam Truong is an aspiring software engineer.',
-  icon: '/favicon.ico',
-  apple: '/favicon.ico',
   authors: ['Nam'],
   keywords: ['Nam Truong', 'Nam', 'Portfolio', 'Nam Truong Portfolio', 'Nam Truong UTD'],
   openGraph: {
