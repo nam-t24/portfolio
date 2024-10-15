@@ -7,7 +7,7 @@ const About = () =>{
                 <div className="z-10 mx-auto bg-[#F5F2FD] lg:py-16 md:py-10 py-6 md:px-24 px-8 rounded-xl">
                     <h1 className="2xl:text-5xl md:text-4xl text-3xl font-semibold xl:mb-6 mb-3 md:text-center text-left text-neutral-800">About Me</h1>
                     <p className="font-light xl:text-xl sm:text-lg text-base text-slate-800">
-                        My name is Nam Truong and I am a software engineer at JPMorganChase. I recently graudated from the 
+                        My name is Nam Truong and I am a software engineer at JPMorganChase. I recently graduated from the 
                         University of Texas at Dallas with a B.S. in Computer Science and a minor in Finance.
                         <br />
                         <br />
