@@ -7,10 +7,8 @@ const About = () =>{
                 <div className="z-10 mx-auto bg-[#F5F2FD] lg:py-16 md:py-10 py-6 md:px-24 px-8 rounded-xl">
                     <h1 className="2xl:text-5xl md:text-4xl text-3xl font-semibold xl:mb-6 mb-3 md:text-center text-left text-neutral-800">About Me</h1>
                     <p className="font-light xl:text-xl sm:text-lg text-base text-slate-800">
-                        My name is Nam Truong and I am a fourth year student at the University of Texas
-                        at Dallas studying computer science and finance. I created this site to not only
-                        highlight my work and accomplishments but to exhibit my
-                        growth within computer science.
+                        My name is Nam Truong and I am a software engineer at JPMorganChase. I recently graudated from the 
+                        University of Texas at Dallas with a B.S. in Computer Science and a minor in Finance.
                         <br />
                         <br />
                         I have been involved in the{" "}
@@ -25,7 +23,7 @@ const About = () =>{
                         <a href="https://www.hackutd.co/" className="underline" target="-blank">
                         HackUTD.
                         </a>{" "}
-                        During university summers, I taught computer science bootcamps and interned as a software engineer at State Farm and J.P. Morgan Chase & Co.
+                        During university summers, I taught computer science bootcamps and interned as a software engineer at State Farm and JPMorganChase.
 
                     </p>
                 </div>
@@ -37,9 +35,8 @@ const About = () =>{
                             When I&#39;m not busy, I enjoy weight training, playing guitar and volleyball,
                             hiking, and creating latte art.
                             <br/>
-                            Some music genres I like to listen to are folk and a little bit of country.
                             <br/>
-                            I also started to really enjoy films and some of my favorites include Fantastic Mr. Fox, Eternal Sunshine of the Spotless Mind, and Dune.
+                            Some music genres I like to listen to are folk, country, and the occasional white girl bangers.
                         </div>
                     </div>
                     <div className="lg:order-first order-last basis-3/5 bg-[#F5F2FD] rounded-xl md:py-10 py-6 md:px-12 px-8">
